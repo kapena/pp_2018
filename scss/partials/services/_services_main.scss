@@ -1,0 +1,14 @@
+.services-main{
+  position: relative;
+  height:750px;
+  background-color:$pp-dark-blue;
+}
+
+.intro, .block-grid{
+  display: flex;
+  justify-content: center;
+}
+
+.our-services{
+  padding:1em;
+}

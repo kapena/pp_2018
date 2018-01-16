@@ -1,0 +1,27 @@
+.services-img{
+  @include img-scale;
+}
+.services-lightblue-box{
+  @include center-txt;
+  height: 100%;
+  background-color: $pp-light-blue;
+  position: relative;
+}
+.services-heading-text{
+  padding:5%;
+}
+.services-img{
+  @include breakpoint(medium down){
+    display: none;
+  }
+}
+.image-left-container2{
+  @include breakpoint(medium down){
+    height: 0px;
+  }
+}
+.services-heading-text{
+  @include breakpoint(medium down) {
+    height: 200px;
+  }
+}
