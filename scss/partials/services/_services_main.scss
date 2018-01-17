@@ -1,14 +1,43 @@
 .services-main{
   position: relative;
-  height:750px;
+  height:100%;
+  padding: 1em;
   background-color:$pp-dark-blue;
 }
 
-.intro, .block-grid{
+.intro{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.our-services{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.click-info{
+  // font-size: 1rem !important;
+  font-size:rem-calc(18) !important;
+  margin-bottom: 10px;
+}
+
+.serivice-grid{
+  width: 70%;
+}
+
+.block-grid{
   display: flex;
   justify-content: center;
 }
 
+.service-icons{
+  width: 200px;
+  height: 300px;
+}
+
+.icon{
+  padding:10px;
+}
 .our-services{
   padding:1em;
 }

@@ -24,13 +24,13 @@
 
 .getintouch{
   font-weight: 600;
-  background-color: $pp-red !important;
+  background-color: $pp-light-blue !important;
   margin-top:20px !important;
   color:$white;
 }
 
 .getintouch:hover{
-  background-color: #49b2f7 !important;
+  background-color: $pp-red !important;
   transition: background-color, 1s;
 }
 

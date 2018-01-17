@@ -477,8 +477,6 @@
   padding-top: 5px;
   text-align: center; }
 
-/* Base Size */
-/**** Responsive Scales ****/
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -513,12 +511,12 @@ h1, h2, h3 {
 
 .getintouch {
   font-weight: 600;
-  background-color: #F05664 !important;
+  background-color: #3399ff !important;
   margin-top: 20px !important;
   color: #fefefe; }
 
 .getintouch:hover {
-  background-color: #49b2f7 !important;
+  background-color: #F05664 !important;
   transition: background-color, 1s; }
 
 .blue-boxes {
@@ -557,12 +555,35 @@ h1, h2, h3 {
 
 .services-main {
   position: relative;
-  height: 750px;
+  height: 100%;
+  padding: 1em;
   background-color: #1571be; }
 
-.intro, .block-grid {
+.intro {
+  width: 100%;
+  margin: 0 auto; }
+
+.our-services {
+  margin: 0 auto;
+  text-align: center; }
+
+.click-info {
+  font-size: 1.125rem !important;
+  margin-bottom: 10px; }
+
+.serivice-grid {
+  width: 70%; }
+
+.block-grid {
   display: flex;
   justify-content: center; }
+
+.service-icons {
+  width: 200px;
+  height: 300px; }
+
+.icon {
+  padding: 10px; }
 
 .our-services {
   padding: 1em; }
@@ -5289,7 +5310,7 @@ a.thumbnail {
   flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #f5f5f5; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
