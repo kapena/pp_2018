@@ -7,31 +7,37 @@
 .top-light-blue{
   @include center-txt;
   justify-content: center;
-  background-color:$pp-light-blue;
+  background-color:$pp-light-navy;
   height:55%;
   position: relative;
 }
 .btm-dark-blue{
   @include center-txt;
-  background-color:$pp-dark-blue;
+  background-color:$pp-navy-blue;
   height:45%;
   position: relative;
 }
 
-.heading-hero, .subheading{
+.heading-hero{
   padding: 5%;
+}
+.subheading{
+  padding: 0% 5% 0%;
+}
+
+.plumbing-prob{
+  font-weight: bold !important;
 }
 
 .getintouch{
   font-weight: 600;
-  background-color: $pp-light-blue !important;
   margin-top:20px !important;
-  color:$white;
+  // color:$white !important;
 }
 
 .getintouch:hover{
   background-color: $pp-red !important;
-  transition: background-color, 1s;
+  transition: background-color, 0.5s;
 }
 
 .blue-boxes{

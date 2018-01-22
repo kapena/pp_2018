@@ -1,0 +1,11 @@
+@mixin fade-out-service {
+    @include value-prefixer(transition, opacity, ("webkit", "moz"));
+    opacity: 0;
+    transition: opacity, 0.5s;
+  }
+
+@mixin fade-in-service {
+    @include value-prefixer(transition, opacity, ("webkit", "moz"));
+    opacity: 1;
+    transition: opacity, 0.5s;
+  }
