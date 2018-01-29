@@ -479,7 +479,6 @@
 
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
   color: #fefefe; }
 
 li, ul {
@@ -546,6 +545,7 @@ li, ul {
   position: relative; }
 
 .services-heading-text {
+  font-weight: bold;
   padding: 5%; }
 
 @media screen and (max-width: 63.9375em) {
@@ -568,10 +568,6 @@ li, ul {
 
 .intro {
   width: 100%;
-  margin: 0 auto; }
-
-.our-services {
-  margin: 0 auto;
   text-align: center; }
 
 .click-info {
@@ -582,6 +578,7 @@ li, ul {
   width: 70%; }
 
 .block-grid {
+  padding-bottom: 2em;
   display: flex;
   justify-content: center; }
 
@@ -631,6 +628,106 @@ li, ul {
 
 .service {
   color: #0a0a0a; }
+
+.light-navy-about {
+  height: 100%;
+  width: 100%;
+  background-color: #0075EB;
+  display: flex;
+  align-items: center; }
+
+.about-intro-heading {
+  font-weight: bold;
+  padding: 5%; }
+
+.about-intro-subhead {
+  padding: 0% 5% 5%; }
+
+.hero-about {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+.about-pp-navy-lft-box {
+  display: flex;
+  align-items: center;
+  background-color: #004F9E;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 10%; }
+
+.about-pp-navy-rht-box {
+  display: flex;
+  align-items: center;
+  background-color: #0075EB;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 5%; }
+
+.about-pointplumbing-lft {
+  margin: 0; }
+
+.h5, .about-pointplumbing-rht {
+  margin-bottom: 0px !important; }
+
+.contact-hero {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+.rht-navy-box {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #004F9E; }
+
+.contact-us-intro {
+  font-weight: bold;
+  margin: 0;
+  padding: 5%; }
+
+.contact-us-sub {
+  padding: 0% 5% 0%; }
+
+#call-btn {
+  margin: 5% 5% 5%;
+  padding: 5%; }
+
+.call {
+  position: relative;
+  bottom: 2px; }
+
+@media screen and (max-width: 63.9375em) {
+  #call-btn {
+    padding: 2% !important; } }
+
+.intro-form-layout {
+  width: 100%;
+  height: 100%;
+  background-color: #0075EB; }
+
+.form-heading {
+  padding: 5%;
+  text-align: center; }
+
+.form-head {
+  font-weight: bold; }
+
+.name, .email {
+  padding-bottom: 5%; }
+
+.plumbing-issue {
+  padding-top: 5%; }
+
+.prob {
+  height: 150px; }
+
+#req {
+  color: #fefefe !important;
+  font-weight: 400; }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
@@ -2744,7 +2841,7 @@ kbd {
   margin-bottom: 0.5rem;
   font-weight: normal;
   line-height: 1.4;
-  color: #8a8a8a; }
+  color: #fefefe; }
 
 .lead {
   font-size: 125%;
@@ -3146,7 +3243,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: #cacaca; }
+  color: #8a8a8a; }
 
 input:disabled, input[readonly],
 textarea:disabled,
@@ -3189,9 +3286,9 @@ label {
   display: block;
   margin: 0;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.8;
-  color: #0a0a0a; }
+  color: #fefefe; }
   label.middle {
     margin: 0 0 1rem;
     padding: 0.5625rem 0; }
@@ -3222,7 +3319,7 @@ label {
 .input-group-label {
   padding: 0 1rem;
   border: 1px solid #cacaca;
-  background: #e0e0e0;
+  background: #F05664;
   color: #0a0a0a;
   text-align: center;
   white-space: nowrap;

@@ -1,0 +1,41 @@
+.contact-hero{
+  @include img-scale;
+}
+
+.rht-navy-box{
+  @include center-txt;
+  height:100%;
+  width: 100%;
+  background-color: $pp-navy-blue;
+}
+
+// .contact-intro{
+//   padding-top:5%;
+// }
+
+.contact-us-intro{
+  @include font-bold(bold);
+  margin:0;
+  padding: 5%;
+}
+
+.contact-us-sub {
+  padding: 0% 5% 0%;
+}
+
+
+#call-btn{
+  margin: 5% 5% 5%;
+  padding: 5%;
+}
+
+.call{
+  position: relative;
+  bottom: 2px;
+}
+
+#call-btn{
+  @include breakpoint(medium down){
+    padding: 2% !important;
+  }
+}
