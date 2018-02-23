@@ -1,6 +1,46 @@
 
-$icon-height:80px;
+$icon-height:90px;
 $nav-icon-margins:20px 20px 0px;
+
+.pp-nav{
+  background-color: $soft-white;
+  width: 100%;
+  transition: height .25s ease;
+  height: 9em;
+  padding: 0px;
+}
+.pp-nav.shrink{
+  height: 6em;
+}
+.title-bar{
+  height:3em !important;
+  width: 100%;
+}
+.nav-icons {
+  transition:transform 0.2s ease-in-out;
+  transition: opacity .5s;
+  opacity: 1;
+  transform:scale(1);
+  height:$icon-height;
+}
+
+.hideIcons{
+  height: 0px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.sticky-links{
+  display: flex !important;
+}
+
+#menu{
+  padding:10px;
+}
+
+.menu-text{
+  list-style-type: none;
+}
 
 .top-bar-right{
   margin-right: 1em;
@@ -12,12 +52,37 @@ $nav-icon-margins:20px 20px 0px;
   padding: 10px;
 }
 
-.nav-icons {
-  height:$icon-height;
+.nav-icons:hover {
+  transition:transform 0.2s ease-in-out;
+  transform:scale(1.1);
 }
 
 .nav-txt{
   margin: 0;
-  padding-top:5px;
   text-align:center;
+}
+
+.offCanvasMenu{
+  padding-top:2em;
+}
+
+.icons-offCanvas{
+  justify-content:center;
+  display: flex;
+}
+
+#offCanvasIcons{
+  height: 70px;
+}
+.pplogo{
+  @include breakpoint(medium down) {
+  padding:5px;
+  margin-left:0px;
+  }
+}
+
+.desktop-tablet-nav{
+  @include breakpoint(medium down){
+    display: none;
+  }
 }

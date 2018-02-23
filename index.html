@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
+ <body>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -8,30 +9,58 @@
     <link rel="stylesheet" href="css/app.css">
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
   </head>
-  <nav>
-<div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle></button>
+  <!-- OFF CANVAS NAV -->
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+      <ul id="offCanvasMenu" class="vertical menu">
+        <li class="icons-offCanvas">
+          <a href="#">
+          <img class="pplogo" id="offCanvasIcons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt=""></a>
+        </li>
+        <li class="icons-offCanvas">
+          <a class="s-link" href=""><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/services_pp.svg" alt=""><p class="nav-txt">Services</p></a>
+        </li>
+        <li class="icons-offCanvas">
+            <a class="s-link" href="#"><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about_pp.svg" alt=""><p class="nav-txt">About</p></a>
+        </li>
+        <li class="icons-offCanvas">
+            <a class="s-link" href="#"><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
+        </li>
+      </ul>
+      <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div>
+<nav>
+<div class="title-bar" data-sticky-container data-responsive-toggle="offCanvas" data-hide-for="large">
+  <div class="sticky" data-sticky data-options="stickTo:top;stickyOn:small;marginTop:0;">
+    <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
     <div class="title-bar-title">Menu</div>
+  </div>
 </div>
-<div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
-  <!-- LOGO  -->
-<div class="top-bar-left">
-    <li class="menu-text">
-      <a href="#">
-      <img class="pplogo" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt=""></a></li>
-</div>
-  <div class="top-bar-right">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="icons">
-        <a href=""><img id="service-icon" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing/header-icons/services.svg" alt=""><p class="nav-txt">Services</p></a>
+<div class="desktop-tablet-nav" data-sticky-container data-hide-for="large">
+  <div class="pp-nav top-bar" data-sticky data-options="marginTop:0;" data-animate="fade-in fade-out">
+    <!-- LOGO  -->
+    <div class="top-bar-left">
+      <li class="menu-text">
+        <a href="#">
+        <img class="pplogo" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt=""></a>
       </li>
-      <li class="icons">
-        <a href=""><img id="about-icon" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about.svg" alt=""><p class="nav-txt">About</p></a>
-      </li>
-      <li class="icons">
-        <a href=""><img id="contact-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing/header-icons/contact.svg" alt=""><p class="nav-txt">Contact</p></a>
-      </li>
-    </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="horizontal medium-horizontal menu" data-dropdown-menu>
+        <li class="icons">
+          <a class="s-link" href=""><img id="service-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/services_pp.svg" alt=""><p class="nav-txt">Services</p></a>
+        </li>
+        <li class="icons">
+          <a class="s-link" href=""><img id="about-icon" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about_pp.svg" alt=""><p class="nav-txt">About</p></a>
+        </li>
+        <li class="icons">
+          <a class="s-link" href=""><img id="contact-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 </nav>
@@ -42,9 +71,6 @@
         <div class="blue-boxes">
           <div class="top-light-blue">
             <div class="heading-hero">
-            <!-- <h1 class="h1 introduction">Your Satisfaction Is
-              Our Strongest Point.
-            </h1> -->
             <h1 class="h2 plumbing-prob">Do you have a Plumbing Problem?</h1>
             <a class="getintouch button" href="#">Get In Touch</a>
             </div>
@@ -58,7 +84,7 @@
         </div>
         </div>
       <div class="cell large-6 medium-12 small-12">
-        <img class="hero-img" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018.jpg" alt="">
+          <img class="hero-img" data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_device2_2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018, large]">
         </div>
         </div>
     </div>
@@ -67,12 +93,12 @@
   <div class="grid-container full">
     <div class="grid-x">
       <div class="cell image-left-container large-6 medium-12 small-12">
-          <img class="services-img" src=" 	 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/services_2018.jpg" alt="">
+          <img class="services-img" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/services_2018.jpg" alt="">
       </div>
       <div class="cell large-6 medium-12 small-12">
         <div class="services-lightblue-box">
           <div class="services-text">
-          <h1 class="h1 services-heading-text">Plumbing Repairs in Honolulu
+          <h1 class="services-heading-text">Plumbing Repairs in Honolulu
 for a variety of plumbing systems.</h1>
           </div>
         </div>
@@ -85,7 +111,6 @@ for a variety of plumbing systems.</h1>
         <div class="cell large-12 medium-12 small-12">
           <div class="intro">
               <h1>Our Services</h1>
-              <!-- <span class="click-info label info"><i class="icon fi-magnifying-glass"></i>Click the icons for more info about Point Plumbing's services!</span> -->
               <p class="info"><i class="icon fi-magnifying-glass"></i>Click the icons for more info about Point Plumbing's services!</p>
           </div>
         </div>
@@ -278,7 +303,7 @@ to successful plumbing solutions. </h2>
         </div>
       </div>
       <div class="cell large-6 medium-12 small-12">
-        <img class="hero-about" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_2018.jpg" alt="">
+        <img data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device-med-2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018, large]" class="hero-about" alt="">
       </div>
     </div>
   </div>
@@ -307,7 +332,8 @@ to successful plumbing solutions. </h2>
     <div class="contact-layout">
     <div class="grid-x">
       <div class="cell large-6 medium-12 small-12">
-        <img class="contact-hero" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_2018.jpg" alt="">
+
+        <img class="contact-hero" data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_device-med-2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_2018, large]"  alt="">
       </div>
         <div class="cell large-6 medium-12 small-12">
         <div class="rht-navy-box">
@@ -384,7 +410,110 @@ be a draining experience! </h1>
     </div>
   </div>
 </section>
-  <body>
+<section class="bottom-nav">
+  <div class="grid-container full">
+    <div class="grid-x">
+      <div class="cell large-12 medium-12">
+        <div class="footer-nav-links">
+          <ul class="footer-nav vertical medium-horizontal menu">
+            <li><a class="footer-links h5" href="#">Home</a></li>
+            <li><a class="footer-links h5" href="#">Services</a></li>
+            <li><a class="footer-links h5" href="#">About</a></li>
+            <li><a class="footer-links h5" href="#">Contact</a></li>
+            <li><a class="footer-links h5" href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="social-profiles">
+  <div class="grid-container full">
+    <div class="grid-x">
+      <div class="cell large-4 medium-4">
+        <div class="phone">
+        <a id="phone-btn" class="button large" href="tel:808-848-8821">808-848-8821</a>
+        </div>
+        <div class="e-mail">
+        <a id="email-btn" href="http://www.google.com/recaptcha/mailhide/d?k=01BCoPlaKVY8cu6b572Ytz8A==&amp;c=l4ABkgW6FjjMjuwpxSG5_dGZY7K9gbzms_l-rbZ3Tno=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01BCoPlaKVY8cu6b572Ytz8A\x3d\x3d\x26c\x3dl4ABkgW6FjjMjuwpxSG5_dGZY7K9gbzms_l-rbZ3Tno\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address" class="button large">Email Us</a>
+        </div>
+      </div>
+      <div class="cell large-8 medium-8">
+        <div class="social">
+          <ul class="social-links vertical medium-horizontal menu">
+          <h3 class="social">Connect With Us On</h3>
+            <li>
+                <a class="face" target="_blank" id="social1" href="https://www.facebook.com/pages/Point-Plumbing/680341328751178" m="1">
+                </a>
+            </li>
+            <li>
+                <a class="twitter" target="_blank" id="social2" href="https://twitter.com/Pointplumbing_" m="1">
+                </a>
+            </li>
+            <li>
+                <a class="link" target="_blank" id="social3" href="https://www.linkedin.com/pub/point-plumbing/ab/766/708" m="1"></a>
+            </li>
+            <li>
+                <a class="plus" target="_blank" id="social4" href="https://www.google.com/+PointPlumbingHonolulu" m="1"></a>
+            </li>
+
+            <li>
+              <a class="yelp" id="social5" href="https://www.yelp.com/biz/point-plumbing-honolulu"></a>
+            </li>
+            <li>
+                <a class="angie" target="_blank" id="social6" href="https://www.angieslist.com/companylist/us/hi/haleiwa/point-plumbing-inc-reviews-6506524.html" m="1">
+                </a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="footer-main">
+  <footer class="pp-foot">
+  <div class="grid-container">
+    <div class="grid-x">
+      <!-- 4 -->
+      <div class="large-4 medium-4">
+        <div class="pp-lic">
+          <h4 class="lic-head">License</h4>
+          <ul class="numbers no-bullet">
+            <li><span class="lic">C-17333</span></li>
+            <li><span class="lic">C-19203</span></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="cell large-4 medium-4">
+        <div class="pp-info">
+          <h4 class="pointplumbing">Point Plumbing Inc</h2>
+          <span class="number">808-848-8821</span></br>
+          <span class="location">Honolulu, HI, 96816</span></br>
+          <small class="rights">All Rights Reserved 2018 ©</small>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="cell large-4 medium-4">
+        <div class="subscribe">
+          <h4 class="sub">Enjoy Reading?</h4><p class="sub">Subscribe to receive our informative plumbing articles.</p>
+          <form action="">
+            <div class="form-grid grid-container">
+              <div class="grid-x">
+                <div class="medium-8 cell">
+                  <label class="sub-text">Subscribe
+                  <input class="sub-email" type="text" placeholder="enter your email">
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+</section>
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/dist/what-input.js"></script>
     <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>

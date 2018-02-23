@@ -32,7 +32,6 @@
 .getintouch{
   font-weight: 600;
   margin-top:20px !important;
-  // color:$white !important;
 }
 
 .getintouch:hover{
@@ -44,8 +43,14 @@
   height:100%;
 }
 
-  .blue-boxes{
-    @include breakpoint(medium down){
-      height:500px;
-    }
+.blue-boxes{
+  @include breakpoint(medium down){
+    height:500px;
   }
+}
+.heading-hero, .subheading{
+  @include breakpoint (medium down) {
+    justify-content: flex-start;
+    padding:10%;
+  }
+}

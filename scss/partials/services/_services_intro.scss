@@ -8,7 +8,6 @@
   position: relative;
 }
 .services-heading-text{
-  // font-weight: bold !important;
   @include font-bold(bold);
   padding:5%;
 }
@@ -24,6 +23,7 @@
 }
 .services-heading-text{
   @include breakpoint(medium down) {
-    height: 200px;
+    // height: 200px;
+    padding:10%;
   }
 }

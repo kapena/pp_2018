@@ -13,6 +13,7 @@
 // Nav and Type
 @import "partials/nav";
 @import "partials/type";
+// Pages
 // Home
 @import "partials/home/header";
 // Services
@@ -23,6 +24,10 @@
 // Contact
 @import "partials/contact/_contactIntro";
 @import "partials/contact/_contactForm";
+// Footer
+@import "partials/footer/_footer-top";
+@import "partials/footer/_footer-social";
+@import "partials/footer/_footer-btm";
 
 @include foundation-global-styles;
 // @include foundation-grid;

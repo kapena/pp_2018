@@ -93,3 +93,9 @@ $gasline-hov:".hov-bg-gasline";
 .service{
   color:$black;
 }
+
+.serivice-grid{
+  @include breakpoint (520px down) {
+    width:100%;
+  }
+}

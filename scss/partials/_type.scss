@@ -21,3 +21,9 @@ h1, h2, {
     font-size:2.125rem !important;
   }
 }
+
+h1, h2, {
+  @include breakpoint(1533 up){
+    font-size:3em !important;
+  }
+}

@@ -1,0 +1,41 @@
+.pp-foot{
+  width: 100%;
+  height:300px;
+  background-color: $soft-white !important;
+}
+
+.pp-lic{
+  padding:10% 5% 10%;
+}
+
+.pp-info{
+  @extend .pp-lic;
+}
+.lic-head, .numbers{
+  color:$black;
+  // text-align: center;
+}
+
+.pp-info{
+  @extend .lic-head;
+}
+
+.lic-head{
+  color:$black;
+}
+
+.rights{
+  margin-bottom:10px;
+}
+
+.sub,.sub-text{
+  color:$black;
+}
+
+.subscribe{
+  @extend .pp-lic;
+}
+
+.form-grid{
+  padding:0 !important;
+}
