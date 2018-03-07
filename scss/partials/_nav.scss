@@ -17,7 +17,7 @@ $nav-icon-margins:20px 20px 0px;
   width: 100%;
 }
 .nav-icons {
-  transition:transform 0.2s ease-in-out;
+  transition:transform 0.2s ease-out !important;
   transition: opacity .5s;
   opacity: 1;
   transform:scale(1);
@@ -32,6 +32,10 @@ $nav-icon-margins:20px 20px 0px;
 
 .sticky-links{
   display: flex !important;
+}
+
+.sticky.is-anchored{
+  z-index: 2 !important;
 }
 
 #menu{
@@ -50,16 +54,24 @@ $nav-icon-margins:20px 20px 0px;
   margin-left:1em;
   width: 215px;
   padding: 10px;
+  transition: width 0.5s ease;
+}
+
+.smaller{
+  transition: width 0.5s ease;
+  width: 160px;
 }
 
 .nav-icons:hover {
   transition:transform 0.2s ease-in-out;
-  transform:scale(1.1);
+  transform:scale(1.2);
 }
 
 .nav-txt{
   margin: 0;
   text-align:center;
+  position: relative;
+  top:5px;
 }
 
 .offCanvasMenu{

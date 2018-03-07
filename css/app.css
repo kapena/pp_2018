@@ -476,7 +476,7 @@
   width: 100%; }
 
 .nav-icons {
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-out !important;
   transition: opacity .5s;
   opacity: 1;
   transform: scale(1);
@@ -490,6 +490,9 @@
 .sticky-links {
   display: flex !important; }
 
+.sticky.is-anchored {
+  z-index: 2 !important; }
+
 #menu {
   padding: 10px; }
 
@@ -502,15 +505,22 @@
 .pplogo {
   margin-left: 1em;
   width: 215px;
-  padding: 10px; }
+  padding: 10px;
+  transition: width 0.5s ease; }
+
+.smaller {
+  transition: width 0.5s ease;
+  width: 160px; }
 
 .nav-icons:hover {
   transition: transform 0.2s ease-in-out;
-  transform: scale(1.1); }
+  transform: scale(1.2); }
 
 .nav-txt {
   margin: 0;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  top: 5px; }
 
 .offCanvasMenu {
   padding-top: 2em; }
@@ -547,7 +557,6 @@ li, ul {
     font-size: 3em !important; } }
 
 .hero-img {
-  position: relative;
   width: 100%;
   height: auto; }
 
@@ -565,6 +574,13 @@ li, ul {
   background-color: #004F9E;
   height: 45%;
   position: relative; }
+
+.al-ss {
+  height: 100px;
+  padding-right: 5%; }
+
+.al-ss-mobile {
+  display: none; }
 
 .heading-hero {
   padding: 5%; }
@@ -587,8 +603,29 @@ li, ul {
   height: 100%; }
 
 @media screen and (max-width: 63.9375em) {
+  .top-light-blue, .btm-dark-blue {
+    height: 100%; } }
+
+@media screen and (min-width: 40em) {
+  .device {
+    display: none; } }
+
+@media screen and (max-width: 63.9375em) {
+  .device {
+    display: flex; } }
+
+@media screen and (max-width: 63.9375em) {
+  .desktop {
+    display: none; } }
+
+@media screen and (max-width: 63.9375em) {
   .blue-boxes {
-    height: 500px; } }
+    height: 350px; } }
+
+@media screen and (max-width: 63.9375em) {
+  .al-ss {
+    padding: 10px 0px 10px;
+    height: 100px; } }
 
 @media screen and (max-width: 63.9375em) {
   .heading-hero, .subheading {
@@ -626,12 +663,20 @@ li, ul {
 .services-main {
   position: relative;
   height: 100%;
-  padding: 1em;
+  padding: 3em;
   background-color: #004F9E; }
 
 .intro {
+  position: relative;
   width: 100%;
   text-align: center; }
+
+.services-link {
+  position: relative !important; }
+
+#services {
+  position: absolute;
+  top: -150px; }
 
 .click-info {
   font-size: 1.125rem !important;
@@ -675,7 +720,7 @@ li, ul {
   background: url("https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/services/hover/Water_h.svg") no-repeat center; }
 
 .hov-bg-waste {
-  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/services/hover/Waste_h.svg") no-repeat center; }
+  background: url("https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/services/hover/PM_h.svg") no-repeat center; }
 
 .hov-bg-install {
   background: url("https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/services/hover/Install_h.svg") no-repeat center; }
@@ -773,11 +818,11 @@ li, ul {
 
 .intro-form-layout {
   width: 100%;
-  height: 100%;
+  height: 750px;
   background-color: #0075EB; }
 
 .form-heading {
-  padding: 5%;
+  padding: 3%;
   text-align: center; }
 
 .form-head {

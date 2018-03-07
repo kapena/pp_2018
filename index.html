@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
+<!-- BUILT WITH FOUNDATION 6 and ALOHA :) -->
  <body>
   <head>
     <meta charset="utf-8">
@@ -18,13 +19,13 @@
           <img class="pplogo" id="offCanvasIcons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt=""></a>
         </li>
         <li class="icons-offCanvas">
-          <a class="s-link" href=""><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/services_pp.svg" alt=""><p class="nav-txt">Services</p></a>
+          <a href='#services' data-smooth-scroll class="s-link" href=""><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/services_pp.svg" alt=""><p class="nav-txt">Services</p></a>
         </li>
         <li class="icons-offCanvas">
-            <a class="s-link" href="#"><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about_pp.svg" alt=""><p class="nav-txt">About</p></a>
+            <a href="#aboutus" data-smooth-scroll class="s-link" href="#"><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about_pp.svg" alt=""><p class="nav-txt">About</p></a>
         </li>
         <li class="icons-offCanvas">
-            <a class="s-link" href="#"><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
+            <a href="#contactpp" data-smooth-scroll class="s-link" href="#"><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
         </li>
       </ul>
       <button class="close-button" aria-label="Close menu" type="button" data-close>
@@ -44,20 +45,23 @@
     <!-- LOGO  -->
     <div class="top-bar-left">
       <li class="menu-text">
-        <a href="#">
-        <img class="pplogo" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt=""></a>
+        <a>
+        <img id="homepp" class="pplogo" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt=""></a>
       </li>
     </div>
     <div class="top-bar-right">
       <ul class="horizontal medium-horizontal menu" data-dropdown-menu>
         <li class="icons">
-          <a class="s-link" href=""><img id="service-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/services_pp.svg" alt=""><p class="nav-txt">Services</p></a>
+          <a class="s-link" href="#services" data-smooth-scroll><img id="service-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/services_pp.svg" alt=""><p class="nav-txt">Services</p></a>
         </li>
         <li class="icons">
-          <a class="s-link" href=""><img id="about-icon" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about_pp.svg" alt=""><p class="nav-txt">About</p></a>
+          <a class="s-link" href="#aboutus" data-smooth-scroll><img id="about-icon" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about_pp.svg" alt=""><p class="nav-txt">About</p></a>
         </li>
         <li class="icons">
-          <a class="s-link" href=""><img id="contact-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
+          <a class="s-link" href="#contactpp" data-smooth-scroll><img id="contact-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
+        </li>
+        <li class="icons">
+          <a class="s-link" href="#contactpp" data-smooth-scroll><img id="blog-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/blog_pp.svg" alt=""><p class="nav-txt">Blog</p></a>
         </li>
       </ul>
     </div>
@@ -67,24 +71,36 @@
 <header id="hero-intro">
   <div class="grid-container full">
     <div class="grid-x">
-      <div class="cell large-6 medium-12 small-12">
+      <div class="cell large-6 medium-6 small-12">
         <div class="blue-boxes">
           <div class="top-light-blue">
             <div class="heading-hero">
             <h1 class="h2 plumbing-prob">Do you have a Plumbing Problem?</h1>
-            <a class="getintouch button" href="#">Get In Touch</a>
+            <a class="getintouch button" data-smooth-scroll href="#getintouch">Get In Touch</a>
             </div>
           </div>
-          <div class="btm-dark-blue">
+          <div class="btm-dark-blue desktop">
             <div class="subheading">
             <h2 class="intro-sub">Your Satisfaction Is
               Our Strongest Point.</h2>
             </div>
+              <img class="al-ss" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/aa-pp.svg" alt="">
           </div>
         </div>
         </div>
+        <!-- DEVICE LAYOUT -->
+      <div class="cell device medium-6 small-12">
+        <div class="blue-boxes device btm-dark-blue">
+            <div class="subheading">
+            <h2 class="intro-sub">Your Satisfaction Is
+              Our Strongest Point.</h2>
+            <img class="al-ss" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/aa-pp.svg" alt="">
+            </div>
+          </div>
+        </div>
+
       <div class="cell large-6 medium-12 small-12">
-          <img class="hero-img" data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_device2_2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018, large]">
+          <img class="hero-img" data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_device2_2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018.jpg, large]">
         </div>
         </div>
     </div>
@@ -108,7 +124,8 @@ for a variety of plumbing systems.</h1>
   <div class="services-main">
     <div class='grid-container'>
       <div class="grid-x">
-        <div class="cell large-12 medium-12 small-12">
+        <div id="services-link" class="cell large-12 medium-12 small-12">
+          <a id='services' href=""></a>
           <div class="intro">
               <h1>Our Services</h1>
               <p class="info"><i class="icon fi-magnifying-glass"></i>Click the icons for more info about Point Plumbing's services!</p>
@@ -208,11 +225,34 @@ for a variety of plumbing systems.</h1>
       </div>
       <!-- Btm 4 -->
       <div class="cell">
-        <a class="icon-link" href="#">
+        <a class="icon-link" data-open="pm">
           <div class="hov-bg-waste">
-              <img class="icon-blue serivce-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/services/v2/Waste.svg" alt="">
+              <img class="icon-blue serivce-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/services/v2/PM.svg" alt="">
           </div>
         </a>
+      </div>
+
+      <div class="reveal large" id="pm" data-animation-in="slide-in-down fast" data-animation-out="fade-out fast" data-reveal>
+        <h1 class="service">Preventative Maintenance</h1>
+        <p class="service lead">What is it? Preventaive maintenance is making sure that your home's plumbing is still in working order, so that it dose not break down unexpectedly. Point Plumbing recommends an annual inspection on the plumbing in your single family residence or condominium to prevent flooding and damage to your own premises and to your neighbors,<b>particularly if you live a high rise apartment building.</b></p>
+        <h5 class="service">Point Plumbing will inspect the functionality of the following plumbing systems in your home.</h5>
+        <ul>
+          <li>Shut Off Valves</li>
+          <li>Supply Tubing</li>
+          <li>Washing Machine Hoses</li>
+          <li>Fridge Ice Maker Line</li>
+          <li>Hot Water Heater & it's components</li>
+          <li>Washing Machine Drain</li>
+          <li>Gas Lines</li>
+          <li>Vents</li>
+          <li>Toilet Tank & Bowl</li>
+          <li>Various Fixtures & Shower Valves</li>
+        </ul>
+        <h5 class="service">Got a question or plumbing problem? Contact us because a stitch in time saves nine!</h2>
+        <a class="button alert contact-us" href="#">Contact Us!</a>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
 
       <div class="cell">
@@ -287,10 +327,11 @@ for a variety of plumbing systems.</h1>
       </div>
     </div>
   </div>
+      <!-- <div id="services2"></div> -->
 </div>
 </section>
 <section class="about">
-<div class="grid-container full">
+<div id="aboutus" class="grid-container full">
   <div class="about-intro">
     <div class="grid-x">
       <div class="cell large-6 medium-12 small-12">
@@ -303,7 +344,7 @@ to successful plumbing solutions. </h2>
         </div>
       </div>
       <div class="cell large-6 medium-12 small-12">
-        <img data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device-med-2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018, large]" class="hero-about" alt="">
+        <img data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device-med-2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018.jpg, large]" class="hero-about" alt="">
       </div>
     </div>
   </div>
@@ -327,13 +368,12 @@ to successful plumbing solutions. </h2>
     </div>
 </section>
 </section>
-<section class="contact-page">
+<section id="contactpp" class="contact-page">
   <div class="grid-container full">
     <div class="contact-layout">
     <div class="grid-x">
       <div class="cell large-6 medium-12 small-12">
-
-        <img class="contact-hero" data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_device-med-2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_2018, large]"  alt="">
+        <img class="contact-hero" data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_device-med-2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/contact_2018.jpg, large]"  alt="">
       </div>
         <div class="cell large-6 medium-12 small-12">
         <div class="rht-navy-box">
@@ -341,6 +381,8 @@ to successful plumbing solutions. </h2>
           <h1 class="contact-us-intro">Plumbing should never
 be a draining experience! </h1>
 <h2 class="h3 contact-us-sub">Your plumbing problems, Point Plumbings solutions. </h2>
+<!-- GET IN TOUCH BTN IN HEADER SCROLLS TO HERE -->
+<a id="getintouch" href=""></a>
         <a id="call-btn" class="button large alert" href=""><span class="call"> Call Us</span></br>808-848-8821</a>
         </div>
         </div>
@@ -357,9 +399,11 @@ be a draining experience! </h1>
           <div class="form-heading">
             <h1 class="form-head">Plumbing Issues?</h1>
             <p class="form-intro lead">Please take a minute to briefly tell us about your plumbing problems. We will then be in contact with you ASAP.</p>
+            <!-- <h5>Give Us A Call</h5>
+            <button class="button large">808-848-8821</button> -->
           </div>
           <!-- Form Begin -->
-          <form data-abide novalidate action="">
+          <form  data-abide novalidate action="">
             <div data-abide-error class="alert callout" style="display: none;"><p><i class="fi-alert"></i> There are some errors in your form.</p>
             </div>
             <div class="grid-container">
@@ -400,6 +444,7 @@ be a draining experience! </h1>
                     <textarea required pattern="text" class="prob" placeholder="Please best discribe the plumbing issue you are having."></textarea>
                 </label>
                 <button class="button large" type="submit" value="Submit">Submit</button>
+                <!-- <a id="cta-form" class="button large primary" href=""><span class="call"> Call Us</span></br>808-848-8821</a> -->
                 </div>
                 </div>
               </div>

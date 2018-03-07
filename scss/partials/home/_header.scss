@@ -1,5 +1,5 @@
 .hero-img{
-  position: relative;
+  // position: relative;
   width: 100%;
   height: auto;
 }
@@ -16,6 +16,15 @@
   background-color:$pp-navy-blue;
   height:45%;
   position: relative;
+}
+
+.al-ss{
+  height: 100px;
+  padding-right: 5%;
+}
+
+.al-ss-mobile{
+  display: none;
 }
 
 .heading-hero{
@@ -43,12 +52,40 @@
   height:100%;
 }
 
-.blue-boxes{
+.top-light-blue, .btm-dark-blue{
   @include breakpoint(medium down){
-    height:500px;
+    height:100%;
   }
 }
-.heading-hero, .subheading{
+
+.device{
+  @include breakpoint(medium up){
+    display: none;
+  }
+  @include breakpoint(medium down){
+    display: flex;
+  }
+}
+
+.desktop{
+  @include breakpoint(medium down){
+    display:none;
+  }
+}
+
+.blue-boxes{
+  @include breakpoint(medium down){
+    height:350px;
+  }
+}
+
+.al-ss{
+  @include breakpoint(medium down){
+    padding: 10px 0px 10px;
+    height: 100px;
+  }
+}
+.heading-hero,.subheading{
   @include breakpoint (medium down) {
     justify-content: flex-start;
     padding:10%;
