@@ -1,7 +1,46 @@
+html, body, .p-overlay{
+  height:100%;
+  overflow: hidden;
+}
+.no-js-message{
+  text-align: center;
+  visibility: hidden;
+}
+.page{
+  opacity: 0;
+  transition: opacity 0.5s
+  // visibility: hidden;
+}
+
+.page-in-view{
+  // visibility: visible;
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+
+.p-overlay{
+  display: block;
+  background-color:$pp-navy-blue;
+}
+
+.logo-loader{
+  width: 400px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  top: 40%;
+  position: relative;
+}
+
 .hero-img{
-  // position: relative;
   width: 100%;
   height: auto;
+}
+
+#homepp{
+  display: none;
 }
 
 .top-light-blue{
@@ -50,6 +89,12 @@
 
 .blue-boxes{
   height:100%;
+}
+
+.logo-loader{
+  @include breakpoint(medium down){
+    width: 200px;
+  }
 }
 
 .top-light-blue, .btm-dark-blue{

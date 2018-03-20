@@ -6,9 +6,8 @@ $type-color:#efefef;
 
 
 h1, h2, h3, {
+  margin:0px !important;
   font-family: $montserrat;
-  // font-weight: 500;
-  color:$white;
 }
 
 li, ul{

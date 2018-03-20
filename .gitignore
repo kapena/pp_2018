@@ -9,3 +9,4 @@ Thumbs.db
 bower_components
 .codekit-cache
 config.codekit
+.sass-cache

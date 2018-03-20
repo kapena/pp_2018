@@ -13,7 +13,7 @@
   text-align: center;
 }
 .services-link{
-  position: relative !important; 
+  position: relative !important;
 }
 #services{
 position: absolute;
@@ -105,5 +105,11 @@ $gasline-hov:".hov-bg-gasline";
 .serivice-grid{
   @include breakpoint (520px down) {
     width:100%;
+  }
+}
+
+.services-main{
+  @include breakpoint (medium down) {
+    padding:20px;
   }
 }

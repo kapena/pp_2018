@@ -1,15 +1,29 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<!-- BUILT WITH FOUNDATION 6 and ALOHA :) -->
- <body>
+<!-- BUILT WITH ALOHA :) -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Point Plumbing</title>
-    <link rel="stylesheet" href="css/app.css">
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link rel="preload" as="style" href="css/app.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+    <noscript>
+<style type="text/css">
+    .no-js-message{
+      visibility: visible;
+    }
+    </style>
+</noscript>
   </head>
+  <body>
+    <div class="p-overlay" data-animation="fade-in fade-out">
+      <div class="logo">
+            <img class="logo-loader" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt="">
+      </div>
+      <h1 class="no-js-message">Error: Please Enable JavaScript</h1>
+    </div>
+    <section class="page" data-animation="fade-in">
   <!-- OFF CANVAS NAV -->
   <div class="off-canvas-wrapper">
     <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
@@ -19,13 +33,13 @@
           <img class="pplogo" id="offCanvasIcons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt=""></a>
         </li>
         <li class="icons-offCanvas">
-          <a href='#services' data-smooth-scroll class="s-link" href=""><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/services_pp.svg" alt=""><p class="nav-txt">Services</p></a>
+          <a href='#services' data-smooth-scroll class="" href=""><img id="offCanvasIcons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/services_pp.svg" alt=""><p class="nav-txt">Services</p></a>
         </li>
         <li class="icons-offCanvas">
-            <a href="#aboutus" data-smooth-scroll class="s-link" href="#"><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about_pp.svg" alt=""><p class="nav-txt">About</p></a>
+            <a href="#aboutus" data-smooth-scroll class="" href="#"><img id="offCanvasIcons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/about_pp.svg" alt=""><p class="nav-txt">About</p></a>
         </li>
         <li class="icons-offCanvas">
-            <a href="#contactpp" data-smooth-scroll class="s-link" href="#"><img id="offCanvasIcons" class="nav-icons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
+            <a href="#contactpp" data-smooth-scroll class="" href="#"><img id="offCanvasIcons" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
         </li>
       </ul>
       <button class="close-button" aria-label="Close menu" type="button" data-close>
@@ -45,8 +59,7 @@
     <!-- LOGO  -->
     <div class="top-bar-left">
       <li class="menu-text">
-        <a>
-        <img id="homepp" class="pplogo" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt=""></a>
+        <img class="pplogo" src=" 	https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/pplogo.svg" alt="">
       </li>
     </div>
     <div class="top-bar-right">
@@ -61,7 +74,7 @@
           <a class="s-link" href="#contactpp" data-smooth-scroll><img id="contact-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/contact-pp.svg" alt=""><p class="nav-txt">Contact</p></a>
         </li>
         <li class="icons">
-          <a class="s-link" href="#contactpp" data-smooth-scroll><img id="blog-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/blog_pp.svg" alt=""><p class="nav-txt">Blog</p></a>
+          <a class="s-link" href="http://192.168.1.104:5757/pp-blog/src/index.html?ckcachecontrol=1520496981" data-smooth-scroll><img id="contact-icon" class="nav-icons" src="https://s3-us-west-2.amazonaws.com/pointplumbing-2018/icons/nav/blog_pp.svg" alt=""><p class="nav-txt">Blog</p></a>
         </li>
       </ul>
     </div>
@@ -75,8 +88,9 @@
         <div class="blue-boxes">
           <div class="top-light-blue">
             <div class="heading-hero">
+            <a id="homepp" href="#homepp"></a>
             <h1 class="h2 plumbing-prob">Do you have a Plumbing Problem?</h1>
-            <a class="getintouch button" data-smooth-scroll href="#getintouch">Get In Touch</a>
+            <a class="getintouch button large" data-smooth-scroll href="#getintouch">Get In Touch</a>
             </div>
           </div>
           <div class="btm-dark-blue desktop">
@@ -98,7 +112,6 @@
             </div>
           </div>
         </div>
-
       <div class="cell large-6 medium-12 small-12">
           <img class="hero-img" data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_device2_2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018.jpg, large]">
         </div>
@@ -234,8 +247,8 @@ for a variety of plumbing systems.</h1>
 
       <div class="reveal large" id="pm" data-animation-in="slide-in-down fast" data-animation-out="fade-out fast" data-reveal>
         <h1 class="service">Preventative Maintenance</h1>
-        <p class="service lead">What is it? Preventaive maintenance is making sure that your home's plumbing is still in working order, so that it dose not break down unexpectedly. Point Plumbing recommends an annual inspection on the plumbing in your single family residence or condominium to prevent flooding and damage to your own premises and to your neighbors,<b>particularly if you live a high rise apartment building.</b></p>
-        <h5 class="service">Point Plumbing will inspect the functionality of the following plumbing systems in your home.</h5>
+        <p class="service lead">What is it? Preventaive maintenance is making sure that your home's plumbing is still in working order, so that it does not break down unexpectedly. Point Plumbing recommends an annual inspection on the plumbing in your single family residence or condominium to prevent flooding and damage to your own premises and to your neighbors, particularly if you live a high rise apartment building.</p>
+        <h5 class="service">Point Plumbing will inspect the functionality of the plumbing systems in your home, the following list is a example of what needs to be checked.</h5>
         <ul>
           <li>Shut Off Valves</li>
           <li>Supply Tubing</li>
@@ -246,9 +259,9 @@ for a variety of plumbing systems.</h1>
           <li>Gas Lines</li>
           <li>Vents</li>
           <li>Toilet Tank & Bowl</li>
-          <li>Various Fixtures & Shower Valves</li>
+          <li>Fixtures & Shower Valves</li>
         </ul>
-        <h5 class="service">Got a question or plumbing problem? Contact us because a stitch in time saves nine!</h2>
+        <h5 class="service">Got a question or plumbing problem? Contact us, a stitch in time saves nine!</h2>
         <a class="button alert contact-us" href="#">Contact Us!</a>
         <button class="close-button" data-close aria-label="Close modal" type="button">
           <span aria-hidden="true">&times;</span>
@@ -327,7 +340,6 @@ for a variety of plumbing systems.</h1>
       </div>
     </div>
   </div>
-      <!-- <div id="services2"></div> -->
 </div>
 </section>
 <section class="about">
@@ -344,7 +356,7 @@ to successful plumbing solutions. </h2>
         </div>
       </div>
       <div class="cell large-6 medium-12 small-12">
-        <img data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device-med-2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/home_2018.jpg, large]" class="hero-about" alt="">
+        <img data-interchange="[https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device_%402x.jpg, small], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_device-med-2x.jpg, medium], [https://s3-us-west-2.amazonaws.com/pointplumbing-2018/images/about_2018.jpg, large]" class="hero-about" alt="">
       </div>
     </div>
   </div>
@@ -367,6 +379,7 @@ to successful plumbing solutions. </h2>
       </div>
     </div>
 </section>
+
 </section>
 <section id="contactpp" class="contact-page">
   <div class="grid-container full">
@@ -399,52 +412,50 @@ be a draining experience! </h1>
           <div class="form-heading">
             <h1 class="form-head">Plumbing Issues?</h1>
             <p class="form-intro lead">Please take a minute to briefly tell us about your plumbing problems. We will then be in contact with you ASAP.</p>
-            <!-- <h5>Give Us A Call</h5>
-            <button class="button large">808-848-8821</button> -->
           </div>
           <!-- Form Begin -->
-          <form  data-abide novalidate action="">
+          <form method="POST" action='https://api.formbucket.com/f/buk_YJGYXhAopuKWWWl8Gtifc4xB' data-abide novalidate>
             <div data-abide-error class="alert callout" style="display: none;"><p><i class="fi-alert"></i> There are some errors in your form.</p>
             </div>
             <div class="grid-container">
               <div class="form-boxes">
               <div class="grid-x grid-padding-x grid-margin-x">
                 <div class="large-6 medium-6 cell">
-                  <label class="name" for="">Name
+                  <label class="name">Name
                     <small id="req">Required</small>
-                    <input required pattern="text" type="text" placeholder="Please tell us your name?">
+                    <input required type="text" name="Name" pattern="text" placeholder="Hello my name is..">
                     <span class="form-error">Please tell us your name!</span>
                   </label>
                 </div>
                 <div class="large-6 medium-6  cell">
-                  <label class="email" for="">Email
+                  <label class="email">Email
                     <small id="req">Required</small>
-                    <input required pattern="email" type="text" placeholder="Please tell us your email?">
+                    <input required pattern="email" name="Email" type="text" placeholder="Please tell us your email?">
                     <span class="form-error">Please enter a valid email!</span>
                   </label>
                 </div>
                 <div class="large-6 medium-6 cell">
                   <label for="">Phone Number
                     <small id="req">Required</small>
-                    <input required pattern="text" type="text" placeholder="Please enter a number we can reach you at.">
+                    <input required pattern="number" name="Phone" type="text" placeholder="Please enter a number we can reach you at.">
                     <span class="form-error">Please enter a valid phone number!</span>
                   </label>
                 </div>
                 <div class="large-6 medium-6 cell">
                   <label for="">Home Address
                     <small id="req">Required</small>
-                    <input required pattern="text" type="text" placeholder="Please enter your home address">
+                    <input required name="Address" pattern="alpha_numeric" type="text" placeholder="Please enter your home address">
+                    <span class="form-error">Please enter your address!</span>
                   </label>
-                  <span class="form-error">Please enter a valid phone address!</span>
                 </div>
                 <div class="large-12 medium-12 cell">
                     <label class="plumbing-issue">
                   The Plumbing Problem
                   <small id="req">Required</small>
-                    <textarea required pattern="text" class="prob" placeholder="Please best discribe the plumbing issue you are having."></textarea>
+                    <textarea required pattern="text" name="Message" type="text" class="prob" placeholder="Please best discribe the plumbing issue you are having."></textarea>
+                    <span class="form-error">Please tell us about the problem you are having!</span>
                 </label>
                 <button class="button large" type="submit" value="Submit">Submit</button>
-                <!-- <a id="cta-form" class="button large primary" href=""><span class="call"> Call Us</span></br>808-848-8821</a> -->
                 </div>
                 </div>
               </div>
@@ -461,10 +472,10 @@ be a draining experience! </h1>
       <div class="cell large-12 medium-12">
         <div class="footer-nav-links">
           <ul class="footer-nav vertical medium-horizontal menu">
-            <li><a class="footer-links h5" href="#">Home</a></li>
-            <li><a class="footer-links h5" href="#">Services</a></li>
-            <li><a class="footer-links h5" href="#">About</a></li>
-            <li><a class="footer-links h5" href="#">Contact</a></li>
+            <li><a class="footer-links h5" href="#homepp" data-smooth-scroll>Home</a></li>
+            <li><a class="footer-links h5" href="#services" data-smooth-scrol>Services</a></li>
+            <li><a class="footer-links h5" href="#aboutus" data-smooth-scrol>About</a></li>
+            <li><a class="footer-links h5" href="#contactpp" data-smooth-scrol>Contact</a></li>
             <li><a class="footer-links h5" href="#">Blog</a></li>
           </ul>
         </div>
@@ -559,9 +570,7 @@ be a draining experience! </h1>
   </div>
   </footer>
 </section>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/what-input/dist/what-input.js"></script>
-    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/min/plugins-min.js"></script>
     <script src="js/min/app-min.js"></script>
   </body>
 </html>
