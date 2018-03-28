@@ -4,9 +4,8 @@
   background-color: $pp-light-navy;
 }
 
-.form-heading{
+.form-heading,.contact_form{
   padding:3%;
-  text-align: center;
 }
 
 .form-head{
@@ -29,3 +28,13 @@
   color:$white!important;
   font-weight: 400;
 }
+
+.submit-btn{
+  margin:20px 0px 20px !important;
+}
+
+// .form-heading{
+//   @include breakpoint(medium down){
+//     padding:10% 6% 0%;
+//   }
+// }

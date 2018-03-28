@@ -1,5 +1,3 @@
-.DS_Store
-.DS_Store?
 ._*
 .config.codekit
 .Spotlight-V100
@@ -10,3 +8,4 @@ bower_components
 .codekit-cache
 config.codekit
 .sass-cache
+.scss/vendor

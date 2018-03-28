@@ -1,0 +1,61 @@
+
+.logo-loader{
+  @include breakpoint(medium down){
+    width: 200px;
+  }
+}
+
+.top-light-blue, .btm-dark-blue{
+  @include breakpoint(medium down){
+    height:100%;
+  }
+}
+
+.device{
+  @include breakpoint(medium up){
+    display: none;
+  }
+  @include breakpoint(medium down){
+    display: flex;
+  }
+}
+
+.plumbing-prob, .pp-can-solve, .intro-sub{
+  @include breakpoint(medium down){
+    text-align:center;
+  }
+}
+
+.getintouch{
+  @include breakpoint(medium down){
+    display: flex !important;
+    justify-content: center;
+  }
+}
+
+.desktop{
+  @include breakpoint(medium down){
+    display:none;
+  }
+}
+
+.blue-boxes{
+    @include breakpoint(medium down){
+    height:340px;
+  }
+}
+
+.al-ss{
+  @include breakpoint(medium down){
+    padding: 10px 0px 10px;
+    display: flex;
+    height: 100px;
+    margin: 0 auto;
+  }
+}
+.heading-hero,.subheading{
+  @include breakpoint (medium down) {
+    justify-content: flex-start;
+    padding:10%;
+  }
+}

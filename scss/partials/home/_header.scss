@@ -9,11 +9,9 @@ html, body, .p-overlay{
 .page{
   opacity: 0;
   transition: opacity 0.5s
-  // visibility: hidden;
 }
 
 .page-in-view{
-  // visibility: visible;
   transition: opacity 0.5s;
   opacity: 1;
 }
@@ -57,9 +55,13 @@ html, body, .p-overlay{
   position: relative;
 }
 
+.pp-can-solve{
+  padding:10px 0px 10px;
+}
+
 .al-ss{
   height: 100px;
-  padding-right: 5%;
+  margin-right: 10px;
 }
 
 .al-ss-mobile{
@@ -67,7 +69,7 @@ html, body, .p-overlay{
 }
 
 .heading-hero{
-  padding: 5%;
+  padding: 0% 5% 0%;
 }
 .subheading{
   padding: 0% 5% 0%;
@@ -79,7 +81,6 @@ html, body, .p-overlay{
 
 .getintouch{
   font-weight: 600;
-  margin-top:20px !important;
 }
 
 .getintouch:hover{
@@ -89,50 +90,4 @@ html, body, .p-overlay{
 
 .blue-boxes{
   height:100%;
-}
-
-.logo-loader{
-  @include breakpoint(medium down){
-    width: 200px;
-  }
-}
-
-.top-light-blue, .btm-dark-blue{
-  @include breakpoint(medium down){
-    height:100%;
-  }
-}
-
-.device{
-  @include breakpoint(medium up){
-    display: none;
-  }
-  @include breakpoint(medium down){
-    display: flex;
-  }
-}
-
-.desktop{
-  @include breakpoint(medium down){
-    display:none;
-  }
-}
-
-.blue-boxes{
-  @include breakpoint(medium down){
-    height:350px;
-  }
-}
-
-.al-ss{
-  @include breakpoint(medium down){
-    padding: 10px 0px 10px;
-    height: 100px;
-  }
-}
-.heading-hero,.subheading{
-  @include breakpoint (medium down) {
-    justify-content: flex-start;
-    padding:10%;
-  }
 }

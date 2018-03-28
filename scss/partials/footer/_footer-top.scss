@@ -12,22 +12,32 @@
 }
 
 .phone, .e-mail{
+    background-color:#0075EB;
     height:50%;
     width: 100%;
 }
 
-.phone{
-  @include center-txt;
-  background-color: $pp-light-blue;
-}
 
-.e-mail{
-  @include center-txt;
-  background-color: $pp-dark-blue;
+.soical-links{
+  display: flex;
+  justify-content: center;
 }
 
 #phone-btn, #email-btn{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin:0 !important;
+}
+
+#phone-btn{
+  background-color: $pp-navy-blue !important;
+}
+
+#email-btn{
+  background-color: $pp-dark-blue !important;
 }
 
 .social{

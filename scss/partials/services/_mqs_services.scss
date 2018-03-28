@@ -1,0 +1,43 @@
+.services-lightblue-box {
+  @include breakpoint (medium only){
+    padding: 0%;
+  }
+}
+
+.services-heading-text, .services-sub-h-text{
+  @include breakpoint(medium down){
+  text-align:center;
+  }
+}
+.services-sub-h-text{
+  @include breakpoint(medium down){
+    padding:0% 5% 10%;
+  }
+}
+.services-img{
+  @include breakpoint(medium down){
+    display: none;
+  }
+}
+.image-left-container2{
+  @include breakpoint(medium down){
+    height: 0px;
+  }
+}
+.services-heading-text{
+  @include breakpoint(medium down) {
+    padding:10%;
+  }
+}
+
+.serivice-grid{
+  @include breakpoint (520px down) {
+    width:100%;
+  }
+}
+
+.services-main{
+  @include breakpoint (medium down) {
+    padding:20px;
+  }
+}

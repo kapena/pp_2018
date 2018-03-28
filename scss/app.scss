@@ -8,23 +8,25 @@
 @import "modules/_prefixer"; // Bourbon prefixer
 @import "modules/_unit"; // Foudation rem-calc
 @import "modules/_global_mixins";
-// @import "vendor/mdl-spinner";
+
 // Vars
 @import "partials/vars";
 // Nav and Type
 @import "partials/nav";
-@import "partials/type";
 // Pages
-// Home
+@import "partials/type";
+// Home PG
 @import "partials/home/header";
-// Services
+// Services PG
 @import "partials/services/_services_intro";
 @import "partials/services/_services_main";
-// About
+// About PG
 @import "partials/about/_aboutIntro";
-// Contact
+// Contact PG
 @import "partials/contact/_contactIntro";
 @import "partials/contact/_contactForm";
+// Media Query's
+@import "modules/_mediaQs";
 // Footer
 @import "partials/footer/_footer-top";
 @import "partials/footer/_footer-social";

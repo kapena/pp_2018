@@ -1,0 +1,15 @@
+.about-intro-heading, .about-intro-subhead{
+  @include breakpoint(medium down){
+    text-align: center;
+  }
+}
+.about-intro-heading{
+  @include breakpoint(medium down){
+    padding:10%;
+  }
+}
+.about-intro-subhead{
+  @include breakpoint (medium down){
+    padding:0% 10% 10%;
+  }
+}

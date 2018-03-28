@@ -101,15 +101,3 @@ $gasline-hov:".hov-bg-gasline";
 .service{
   color:$black;
 }
-
-.serivice-grid{
-  @include breakpoint (520px down) {
-    width:100%;
-  }
-}
-
-.services-main{
-  @include breakpoint (medium down) {
-    padding:20px;
-  }
-}

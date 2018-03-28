@@ -4,6 +4,23 @@
 $montserrat: 'Montserrat', sans-serif;
 $type-color:#efefef;
 
+// med h1
+@mixin header-override-med-h1 ($import:!important){
+  font-size:rem-calc(41px)$import;
+}
+// small h1
+@mixin header-override-sm-h1 ($import:!important){
+  font-size: rem-calc(35px)$import;
+}
+// med h2
+@mixin header-override-med-h2 ($import:!important) {
+  font-size: rem-calc(38px)$import;
+}
+// small h2
+@mixin header-override-sm-h2 ($import:!important) {
+  font-size: rem-calc(31px)$import;
+}
+
 
 h1, h2, h3, {
   margin:0px !important;
@@ -11,18 +28,47 @@ h1, h2, h3, {
 }
 
 li, ul{
-  color:$black;
+  color:#44444;
 }
 
-
 h1, h2, {
-  @include breakpoint(1200 down){
-    font-size:2.125rem !important;
+  @include breakpoint(1533px up){
+    font-size:3em !important;
   }
 }
 
-h1, h2, {
-  @include breakpoint(1533 up){
-    font-size:3em !important;
+h1 {
+  @include breakpoint(xlarge down){
+    font-size: rem-calc(40px) !important;
+  }
+}
+
+ h2 {
+   @include breakpoint (xlarge down) {
+     font-size: rem-calc(38px) !important;
+     }
+ }
+
+h1 {
+  @include breakpoint(1023px down){
+    // 48px
+    @include header-override-med-h1();
+  }
+  @include breakpoint(500px down){
+    // 35px
+    @include header-override-sm-h1();
+  }
+}
+
+h2 {
+  @include breakpoint(1023px down){
+    // 40
+    @include header-override-med-h2();
+    // font-size:rem-calc(40px);
+  }
+  @include breakpoint(500px down){
+    // 31
+    @include header-override-sm-h2();
+    // font-size:rem-calc(31px);
   }
 }

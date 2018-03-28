@@ -19,19 +19,51 @@
   padding: 0% 5% 0%;
 }
 
-
 #call-btn{
   margin: 5% 5% 5%;
-  padding: 5%;
 }
 
-.call{
+.call-desktop{
   position: relative;
-  bottom: 2px;
+  font-weight:800;
+  margin: 0 !important;
 }
 
-#call-btn{
-  @include breakpoint(medium down){
-    padding: 2% !important;
-  }
-}
+// .contact-us-intro{
+//   @include breakpoint (medium down){
+//     padding:10%;
+//     text-align: center;
+//   }
+// }
+//
+// .contact-us-sub{
+//   @include breakpoint (medium down) {
+//     text-align: center;
+//     padding: 0% 10% 10%;
+//   }
+// }
+//
+// #call-btn{
+//     @include breakpoint(medium down){
+//     display: flex;
+//     justify-content: center;
+//     margin: 0 10% 10%;
+//     padding: 5%;
+//   }
+// }
+//
+// .call-desktop, .number{
+//   @include breakpoint  (1023px down){
+//     display:none;
+//   }
+// }
+// .call-mobile{
+//   @include breakpoint (1024px only){
+//     display:none;
+//   }
+// }
+// .call-mobile{
+//   @include breakpoint (1023px down){
+//     display:block;
+//   }
+// }
