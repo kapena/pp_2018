@@ -20,9 +20,14 @@
   }
 }
 
-.plumbing-prob, .pp-can-solve, .intro-sub{
+.plumbing-prob, .intro-sub{
   @include breakpoint(medium down){
     text-align:center;
+  }
+}
+.pp-can-solve{
+  @include breakpoint (medium down){
+    display: none;
   }
 }
 
@@ -30,18 +35,6 @@
   @include breakpoint(medium down){
     display: flex !important;
     justify-content: center;
-  }
-}
-
-.desktop{
-  @include breakpoint(medium down){
-    display:none;
-  }
-}
-
-.blue-boxes{
-    @include breakpoint(medium down){
-    height:340px;
   }
 }
 
@@ -56,6 +49,6 @@
 .heading-hero,.subheading{
   @include breakpoint (medium down) {
     justify-content: flex-start;
-    padding:10%;
+    padding:$padding-med $padding-sm $padding-med;
   }
 }

@@ -9,9 +9,9 @@
 }
 .services-heading-text{
   @include font-bold(bold);
-  padding: 5%;
+  // padding: 5%;
+  padding: $padding-med;
 }
-.services-sub-h-text{
-  padding: 5%;
-  @include font-normal(normal);
+.pp-hours{
+    padding: 0 $padding-med $padding-med;
 }

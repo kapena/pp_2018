@@ -507,7 +507,7 @@ h1, h2, h3 {
   font-family: "Montserrat", sans-serif; }
 
 li, ul {
-  color: #44444; }
+  color: #0a0a0a !important; }
 
 @media screen and (min-width: 95.8125em) {
   h1, h2 {
@@ -575,37 +575,35 @@ html, body, .p-overlay {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0075EB;
-  height: 55%;
-  position: relative; }
-
-.btm-dark-blue {
-  display: flex;
-  align-items: center;
   background-color: #004F9E;
-  height: 45%;
+  height: 100%;
   position: relative; }
 
 .pp-can-solve {
-  padding: 10px 0px 10px; }
+  display: block;
+  padding-bottom: 1.875rem;
+  margin: 0; }
 
 .al-ss {
   height: 100px;
-  margin-right: 10px; }
+  margin-right: 15px;
+  opacity: 0.8; }
 
 .al-ss-mobile {
   display: none; }
 
-.heading-hero {
-  padding: 0% 5% 0%; }
-
-.subheading {
-  padding: 0% 5% 0%; }
+.heading-hero, .subheading {
+  padding: 1.875rem 0 1.875rem; }
 
 .plumbing-prob {
   font-weight: bold !important; }
 
+.intro-sub {
+  padding: 0 0 1.875rem;
+  margin: 0 !important; }
+
 .getintouch {
+  margin: 0 !important;
   font-weight: 600; }
 
 .getintouch:hover {
@@ -629,11 +627,10 @@ html, body, .p-overlay {
 
 .services-heading-text {
   font-weight: bold;
-  padding: 5%; }
+  padding: 3.125rem; }
 
-.services-sub-h-text {
-  padding: 5%;
-  font-weight: normal; }
+.pp-hours {
+  padding: 0 3.125rem 3.125rem; }
 
 .services-main {
   position: relative;
@@ -721,33 +718,27 @@ html, body, .p-overlay {
 
 .about-intro-heading {
   font-weight: bold;
-  padding: 5%; }
+  padding: 3.125rem 1.875rem 3.125rem; }
 
 .about-intro-subhead {
-  padding: 0% 5% 5%; }
+  padding: 0 1.875rem 3.125rem; }
 
 .hero-about {
   position: relative;
   width: 100%;
   height: auto; }
 
-.about-pp-navy-lft-box {
+.about-pp-navy-lft-box, .about-pp-navy-rht-box {
   display: flex;
   align-items: center;
   background-color: #004F9E;
   width: 100%;
   height: 100%;
   position: relative;
-  padding: 10%; }
+  padding: 3.125rem; }
 
 .about-pp-navy-rht-box {
-  display: flex;
-  align-items: center;
-  background-color: #0075EB;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  padding: 10%; }
+  background-color: #0075EB; }
 
 .about-pointplumbing-lft {
   margin: 0; }
@@ -770,13 +761,15 @@ html, body, .p-overlay {
 .contact-us-intro {
   font-weight: bold;
   margin: 0;
-  padding: 5%; }
+  padding: 3.125rem;
+  padding-bottom: 0; }
 
 .contact-us-sub {
-  padding: 0% 5% 0%; }
+  padding-left: 3.125rem;
+  padding-right: 3.125rem; }
 
 #call-btn {
-  margin: 5% 5% 5%; }
+  margin: 3.125rem; }
 
 .call-desktop {
   position: relative;
@@ -788,8 +781,20 @@ html, body, .p-overlay {
   height: 100%;
   background-color: #0075EB; }
 
-.form-heading, .contact_form {
-  padding: 3%; }
+.form-heading {
+  padding-top: 3.125rem; }
+
+.contact_form {
+  padding-top: 0.9375rem;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+  padding-bottom: 3.125rem; }
+
+.form-intro {
+  padding-top: 0.9375rem;
+  padding-bottom: 3.125rem;
+  padding-left: 4.375rem;
+  padding-right: 4.375rem; }
 
 .form-head {
   font-weight: bold; }
@@ -826,21 +831,17 @@ html, body, .p-overlay {
     display: flex; } }
 
 @media screen and (max-width: 63.9375em) {
-  .plumbing-prob, .pp-can-solve, .intro-sub {
+  .plumbing-prob, .intro-sub {
     text-align: center; } }
+
+@media screen and (max-width: 63.9375em) {
+  .pp-can-solve {
+    display: none; } }
 
 @media screen and (max-width: 63.9375em) {
   .getintouch {
     display: flex !important;
     justify-content: center; } }
-
-@media screen and (max-width: 63.9375em) {
-  .desktop {
-    display: none; } }
-
-@media screen and (max-width: 63.9375em) {
-  .blue-boxes {
-    height: 340px; } }
 
 @media screen and (max-width: 63.9375em) {
   .al-ss {
@@ -852,19 +853,19 @@ html, body, .p-overlay {
 @media screen and (max-width: 63.9375em) {
   .heading-hero, .subheading {
     justify-content: flex-start;
-    padding: 10%; } }
+    padding: 3.125rem 1.875rem 3.125rem; } }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .services-lightblue-box {
-    padding: 0%; } }
+    padding: 0; } }
 
 @media screen and (max-width: 63.9375em) {
-  .services-heading-text, .services-sub-h-text {
+  .services-heading-text, .services-hours-txt {
     text-align: center; } }
 
 @media screen and (max-width: 63.9375em) {
-  .services-sub-h-text {
-    padding: 0% 5% 10%; } }
+  .services-hours-txt {
+    padding: 0 1.875rem 3.125rem; } }
 
 @media screen and (max-width: 63.9375em) {
   .services-img {
@@ -876,7 +877,11 @@ html, body, .p-overlay {
 
 @media screen and (max-width: 63.9375em) {
   .services-heading-text {
-    padding: 10%; } }
+    padding: 3.125rem 1.875rem 3.125rem; } }
+
+@media screen and (max-width: 63.9375em) {
+  .intro {
+    padding: 1.875rem 1.875rem 1.875rem; } }
 
 @media screen and (max-width: 32.5em) {
   .serivice-grid {
@@ -892,15 +897,15 @@ html, body, .p-overlay {
 
 @media screen and (max-width: 63.9375em) {
   .about-intro-heading {
-    padding: 10%; } }
+    padding: 3.125rem; } }
 
 @media screen and (max-width: 63.9375em) {
   .about-intro-subhead {
-    padding: 0% 10% 10%; } }
+    padding: 0 3.125rem 3.125rem; } }
 
 @media screen and (max-width: 63.9375em) {
   .contact-us-intro {
-    padding: 10%;
+    padding: 3.125rem;
     text-align: center; } }
 
 @media screen and (max-width: 63.9375em) {
@@ -927,24 +932,43 @@ html, body, .p-overlay {
     display: block; } }
 
 @media screen and (max-width: 63.9375em) {
-  .form-heading {
-    padding: 10% 6% 0%; } }
+  .form-intro {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem; } }
 
-.footer-nav-links {
+@media screen and (max-width: 63.9375em) {
+  .intro-form-layout {
+    padding-bottom: 1.875rem; } }
+
+@media screen and (max-width: 63.9375em) {
+  .form-heading {
+    padding-top: 3.125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; } }
+
+.bill-pay-box {
   width: 100%;
-  background-color: #1571be;
-  height: 200px;
+  height: 100%;
+  background-color: #004F9E; }
+
+.pay-options {
+  padding: 3.125rem; }
+
+.payment-p {
+  padding-top: 0.9375rem; }
+
+.pay {
+  width: 150px;
+  display: block;
+  margin: 0 auto; }
+
+.btn {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  padding: 25px 0px 0px; }
 
-.footer-links {
-  color: #e4e4e4 !important; }
-
-.phone, .e-mail {
-  background-color: #0075EB;
-  height: 50%;
-  width: 100%; }
+.pay-container {
+  padding-bottom: 3.125rem; }
 
 .soical-links {
   display: flex;
@@ -1007,15 +1031,20 @@ html, body, .p-overlay {
   height: 300px;
   background-color: #e4e4e4 !important; }
 
+.end-statement {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.your-sat {
+  color: #0a0a0a; }
+
 .pp-lic, .pp-info, .subscribe {
   padding: 5%; }
 
 .lic-head, .pp-info, .numbers {
   color: #0a0a0a; }
-
-.pp-hours {
-  padding: 5%;
-  background-color: #004F9E; }
 
 .lic-head, .pp-info {
   color: #0a0a0a; }

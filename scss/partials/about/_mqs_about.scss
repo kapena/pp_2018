@@ -5,11 +5,11 @@
 }
 .about-intro-heading{
   @include breakpoint(medium down){
-    padding:10%;
+    padding: $padding-med;
   }
 }
 .about-intro-subhead{
   @include breakpoint (medium down){
-    padding:0% 10% 10%;
+    padding: 0 $padding-med-side $padding-med;
   }
 }

@@ -1,22 +1,33 @@
-.footer-nav-links{
+
+.bill-pay-box{
   width: 100%;
-  background-color: $pp-dark-blue;
-  height: 200px;
+  height:100%;
+  background-color:$primary-color;
+}
+
+.pay-options{
+  padding:rem-calc(50px);
+}
+
+.payment-p{
+  padding-top:rem-calc(15px);
+}
+
+.pay{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn{
   display: flex;
-  justify-content:center;
-  align-items: center;
+  justify-content: center;
+  padding: 25px 0px 0px;
 }
 
-.footer-links{
-  color:$soft-white !important;
+.pay-container{
+  padding-bottom:rem-calc(50px);
 }
-
-.phone, .e-mail{
-    background-color:#0075EB;
-    height:50%;
-    width: 100%;
-}
-
 
 .soical-links{
   display: flex;

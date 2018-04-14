@@ -4,6 +4,17 @@
   background-color: $soft-white !important;
 }
 
+.end-statement{
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-sat{
+  color:$black;
+}
+
 .pp-lic{
   padding:5%;
 }
@@ -13,12 +24,8 @@
 }
 .lic-head, .numbers{
   color:$black;
-  // text-align: center;
 }
-.pp-hours{
-    padding: 5%;
-    background-color: $primary-color;
-}
+
 .pp-info{
   @extend .lic-head;
 }

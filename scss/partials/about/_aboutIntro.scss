@@ -7,10 +7,10 @@
 
 .about-intro-heading{
   @include font-bold(bold);
-  padding:5%;
+  padding: $padding-med $padding-sm $padding-med;
 }
 .about-intro-subhead{
-  padding: 0% 5% 5%;
+  padding: 0 $padding-sm $padding-med;
 }
 
 .hero-about{
@@ -23,16 +23,12 @@
   width: 100%;
   height:100%;
   position: relative;
-  padding: 10%;
+  padding: $padding-med;
 }
 
 .about-pp-navy-rht-box{
-  @include center-txt;
+  @extend .about-pp-navy-lft-box;
   background-color: $pp-light-navy;
-  width: 100%;
-  height:100%;
-  position: relative;
-  padding: 10%;
 }
 
 .about-pointplumbing-lft{

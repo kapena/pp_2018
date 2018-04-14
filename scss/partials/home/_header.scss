@@ -44,42 +44,42 @@ html, body, .p-overlay{
 .top-light-blue{
   @include center-txt;
   justify-content: center;
-  background-color:$pp-light-navy;
-  height:55%;
-  position: relative;
-}
-.btm-dark-blue{
-  @include center-txt;
   background-color:$pp-navy-blue;
-  height:45%;
+  height:100%;
   position: relative;
 }
 
 .pp-can-solve{
-  padding:10px 0px 10px;
+  display:block;
+  padding-bottom:$padding-sm; 
+  margin: 0;
 }
 
 .al-ss{
   height: 100px;
-  margin-right: 10px;
+  margin-right: 15px;
+  opacity: 0.8;
 }
 
 .al-ss-mobile{
   display: none;
 }
 
-.heading-hero{
-  padding: 0% 5% 0%;
-}
-.subheading{
-  padding: 0% 5% 0%;
+.heading-hero, .subheading{
+  padding:$padding-sm 0 $padding-sm;
 }
 
 .plumbing-prob{
   font-weight: bold !important;
 }
 
+.intro-sub{
+  padding: 0 0 $padding-sm;
+  margin: 0 !important;
+}
+
 .getintouch{
+  margin: 0 !important;
   font-weight: 600;
 }
 

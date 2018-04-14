@@ -1,17 +1,17 @@
 .services-lightblue-box {
   @include breakpoint (medium only){
-    padding: 0%;
+    padding: 0;
   }
 }
 
-.services-heading-text, .services-sub-h-text{
+.services-heading-text, .services-hours-txt{
   @include breakpoint(medium down){
   text-align:center;
   }
 }
-.services-sub-h-text{
+.services-hours-txt{
   @include breakpoint(medium down){
-    padding:0% 5% 10%;
+    padding:0 $padding-sm $padding-med;
   }
 }
 .services-img{
@@ -26,7 +26,12 @@
 }
 .services-heading-text{
   @include breakpoint(medium down) {
-    padding:10%;
+    padding:$padding-med $padding-sm $padding-med;
+  }
+}
+.intro{
+  @include breakpoint(medium down) {
+    padding:$padding-sm $padding-sm $padding-sm;
   }
 }
 
@@ -35,6 +40,7 @@
     width:100%;
   }
 }
+
 
 .services-main{
   @include breakpoint (medium down) {

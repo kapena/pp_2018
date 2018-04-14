@@ -1,0 +1,1 @@
+$(document).foundation(),$(window).on("changed.zf.mediaquery",function(){$(".is-dropdown-submenu.invisible").removeClass("invisible")});
