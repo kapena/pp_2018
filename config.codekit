@@ -31,7 +31,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_accessibility\/css\/_settings.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -47,7 +47,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_accessibility\/css\/accessibility_foundicons.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -63,7 +63,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_accessibility\/css\/accessibility_foundicons_ie7.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -106,7 +106,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_general\/css\/_settings.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -122,7 +122,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_general\/css\/general_foundicons.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -138,7 +138,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_general\/css\/general_foundicons_ie7.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -181,7 +181,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_general_enclosed\/css\/_settings.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -197,7 +197,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_general_enclosed\/css\/general_enclosed_foundicons.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -213,7 +213,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_general_enclosed\/css\/general_enclosed_foundicons_ie7.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -256,7 +256,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_social\/css\/_settings.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -272,7 +272,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_social\/css\/social_foundicons.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -288,7 +288,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-icons\/foundation_icons_social\/css\/social_foundicons_ie7.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -322,7 +322,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/normalize-scss\/css\/_normalize.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -338,7 +338,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/normalize-scss\/sass\/css\/_import-now.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -354,7 +354,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/normalize-scss\/sass\/css\/_normalize-mixin.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -370,7 +370,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/normalize-scss\/sass\/css\/_variables.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -386,7 +386,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/normalize-scss\/sass\/css\/_vertical-rhythm.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -402,7 +402,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/sassy-lists\/stylesheets\/css\/_contain.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -418,7 +418,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/sassy-lists\/stylesheets\/css\/_purge.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -434,7 +434,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/sassy-lists\/stylesheets\/css\/_remove.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -450,7 +450,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/sassy-lists\/stylesheets\/css\/_replace.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -466,7 +466,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/sassy-lists\/stylesheets\/css\/_to-list.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -482,7 +482,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/sassy-lists\/stylesheets\/css\/_missing-dependencies.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -498,7 +498,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/_vendor\/sassy-lists\/stylesheets\/css\/_true.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -514,7 +514,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/css\/foundation-float.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -530,7 +530,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/css\/foundation-prototype.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -546,7 +546,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/css\/foundation-rtl.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -562,7 +562,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/css\/foundation.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2252,7 +2252,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/css\/_global.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2268,7 +2268,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_accordion-menu.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2284,7 +2284,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_accordion.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2300,7 +2300,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_badge.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2316,7 +2316,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_breadcrumbs.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2332,7 +2332,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_button-group.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2348,7 +2348,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_button.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2364,7 +2364,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_callout.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2380,7 +2380,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_card.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2396,7 +2396,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_close-button.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2412,7 +2412,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_drilldown.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2428,7 +2428,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_dropdown-menu.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2444,7 +2444,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_dropdown.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2460,7 +2460,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_flex-video.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2476,7 +2476,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_flex.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2492,7 +2492,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_float.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2508,7 +2508,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_label.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2524,7 +2524,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_media-object.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2540,7 +2540,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_menu-icon.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2556,7 +2556,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_menu.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2572,7 +2572,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_off-canvas.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2588,7 +2588,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_orbit.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2604,7 +2604,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_pagination.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2620,7 +2620,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_progress-bar.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2636,7 +2636,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_responsive-embed.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2652,7 +2652,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_reveal.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2668,7 +2668,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_slider.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2684,7 +2684,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_sticky.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2700,7 +2700,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_switch.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2716,7 +2716,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_table.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2732,7 +2732,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_tabs.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2748,7 +2748,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_thumbnail.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2764,7 +2764,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_title-bar.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2780,7 +2780,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_tooltip.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2796,7 +2796,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_top-bar.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2812,7 +2812,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_visibility.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2828,7 +2828,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_checkbox.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2844,7 +2844,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_error.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2860,7 +2860,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_fieldset.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2876,7 +2876,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_forms.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2892,7 +2892,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_help-text.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2908,7 +2908,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_input-group.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2924,7 +2924,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_label.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2940,7 +2940,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_meter.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2956,7 +2956,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_progress.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2972,7 +2972,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_range.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2988,7 +2988,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_select.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3004,7 +3004,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_text.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3020,7 +3020,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/css\/foundation.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3036,7 +3036,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_classes.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3052,7 +3052,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_column.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3068,7 +3068,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_flex-grid.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3084,7 +3084,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_grid.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3100,7 +3100,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_gutter.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3116,7 +3116,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_layout.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3132,7 +3132,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_position.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3148,7 +3148,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_row.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3164,7 +3164,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_size.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3180,7 +3180,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_arrow.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3196,7 +3196,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_border-box.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3212,7 +3212,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_border-none.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3228,7 +3228,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_bordered.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3244,7 +3244,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_box.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3260,7 +3260,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_display.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3276,7 +3276,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_font-styling.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3292,7 +3292,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_list-style-type.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3308,7 +3308,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_overflow.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3324,7 +3324,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_position.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3340,7 +3340,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_prototype.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3356,7 +3356,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_relation.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3372,7 +3372,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_rotate.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3388,7 +3388,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_rounded.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3404,7 +3404,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_separator.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3420,7 +3420,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_shadow.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3436,7 +3436,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_sizing.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3452,7 +3452,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_spacing.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3468,7 +3468,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_text-decoration.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3484,7 +3484,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_text-transformation.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3500,7 +3500,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_text-utilities.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3516,7 +3516,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_settings.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3532,7 +3532,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_alignment.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3548,7 +3548,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_base.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3564,7 +3564,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_helpers.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3580,7 +3580,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_print.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3596,7 +3596,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_typography.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3612,7 +3612,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_breakpoint.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3628,7 +3628,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_color.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3644,7 +3644,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_direction.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3660,7 +3660,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_flex.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3676,7 +3676,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_math.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3692,7 +3692,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_mixins.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3708,7 +3708,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_selector.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3724,7 +3724,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_typography.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3740,7 +3740,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_unit.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3756,7 +3756,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_util.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3772,7 +3772,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_value.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3788,7 +3788,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_cell.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3804,7 +3804,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_classes.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3820,7 +3820,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_collapse.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3836,7 +3836,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_frame.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3852,7 +3852,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_grid.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3868,7 +3868,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_gutters.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3884,7 +3884,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_layout.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3900,7 +3900,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_position.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3916,7 +3916,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/foundation-sites\/scss\/css\/_xy-grid.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5268,7 +5268,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/css\/_color-definitions.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5284,7 +5284,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/css\/_functions.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5300,7 +5300,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/css\/_mixins.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5316,7 +5316,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/css\/_variables.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5332,7 +5332,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_animation.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5377,7 +5377,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_badge.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5486,7 +5486,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_button.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5714,7 +5714,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_card.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5787,7 +5787,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_checkbox.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5853,7 +5853,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_chip.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -5935,7 +5935,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_data-table.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6001,7 +6001,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_dialog.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6038,7 +6038,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_mega_footer.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6054,7 +6054,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_mini_footer.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6109,7 +6109,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_grid.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6173,7 +6173,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_icon-toggle.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6269,7 +6269,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_layout.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6461,7 +6461,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_list.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6552,7 +6552,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/css\/material-design-lite-grid.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6568,7 +6568,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/css\/material-design-lite.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6595,7 +6595,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_menu.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6733,7 +6733,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_palette.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6767,7 +6767,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_progress.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6869,7 +6869,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_radio.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6935,7 +6935,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_h5bp.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6951,7 +6951,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_mobile.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6967,7 +6967,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_resets.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -6983,7 +6983,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_ripple.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7010,7 +7010,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_shadow.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7065,7 +7065,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_slider.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7158,7 +7158,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_snackbar.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7224,7 +7224,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_spinner.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7290,7 +7290,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/css\/styleguide.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7306,7 +7306,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_switch.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7372,7 +7372,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_tabs.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7429,7 +7429,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/css\/template.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7445,7 +7445,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_textfield.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7612,7 +7612,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_tooltip.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7696,7 +7696,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/material-design-lite\/src\/css\/_typography.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7814,7 +7814,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/libsass\/css\/main.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7883,7 +7883,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/css\/_modularscale.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7899,7 +7899,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_function.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7915,7 +7915,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_pow.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7931,7 +7931,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_respond.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7947,7 +7947,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_round-px.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7963,7 +7963,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_settings.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7979,7 +7979,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_sort.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7995,7 +7995,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_strip-units.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8011,7 +8011,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_sugar.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8027,7 +8027,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_target.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8043,7 +8043,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modular-scale\/stylesheets\/css\/_vars.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8343,7 +8343,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/css\/motion-ui.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8402,7 +8402,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/css\/_classes.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8418,7 +8418,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/css\/_settings.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8434,7 +8434,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_fade.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8450,7 +8450,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_hinge.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8466,7 +8466,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_shake.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8482,7 +8482,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_slide.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8498,7 +8498,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_spin.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8514,7 +8514,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_wiggle.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8530,7 +8530,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_zoom.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8546,7 +8546,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/css\/motion-ui.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8562,7 +8562,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_fade.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8578,7 +8578,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_hinge.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8594,7 +8594,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_slide.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8610,7 +8610,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_spin.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8626,7 +8626,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_zoom.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8642,7 +8642,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_animation.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8658,7 +8658,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_args.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8674,7 +8674,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_keyframe.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8690,7 +8690,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_selector.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8706,7 +8706,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_series.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8722,7 +8722,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_transition.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8738,7 +8738,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/motion-ui\/src\/css\/_unit.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -8915,38 +8915,11 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/css\/app.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/app.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/app.min.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/app.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/blog.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/blog.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/blog.min.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/blog.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9658,7 +9631,7 @@
 		"outputAbbreviatedPath": "\/css\/_settings.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9674,7 +9647,7 @@
 		"outputAbbreviatedPath": "\/css\/app.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9690,7 +9663,7 @@
 		"outputAbbreviatedPath": "\/scss\/css\/_global_extends.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9706,7 +9679,7 @@
 		"outputAbbreviatedPath": "\/scss\/css\/_global_mixins.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9722,7 +9695,7 @@
 		"outputAbbreviatedPath": "\/scss\/css\/_mediaQs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9738,7 +9711,7 @@
 		"outputAbbreviatedPath": "\/scss\/css\/_prefixer.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9754,7 +9727,7 @@
 		"outputAbbreviatedPath": "\/scss\/css\/_unit.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9770,7 +9743,7 @@
 		"outputAbbreviatedPath": "\/scss\/css\/_nav.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9786,7 +9759,7 @@
 		"outputAbbreviatedPath": "\/scss\/css\/_type.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9802,7 +9775,7 @@
 		"outputAbbreviatedPath": "\/scss\/css\/_vars.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9818,7 +9791,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_aboutIntro.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9834,7 +9807,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_aboutMain.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9850,7 +9823,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_mqs_about.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9866,7 +9839,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_contactForm.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9882,7 +9855,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_contactIntro.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9898,7 +9871,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_mqs_contact.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9914,7 +9887,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_footer-btm.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9930,7 +9903,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_footer-social.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9946,7 +9919,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_footer-top.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9962,7 +9935,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_mqs_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9978,7 +9951,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_header.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -9994,7 +9967,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_mqs_heasder.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -10010,7 +9983,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_mqs_services.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -10026,7 +9999,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_services-ani.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -10042,7 +10015,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_services_intro.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -10058,7 +10031,7 @@
 		"outputAbbreviatedPath": "\/scss\/partials\/css\/_services_main.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -10807,7 +10780,7 @@
 	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
-	"sassOutputStyle": 0,
+	"sassOutputStyle": 3,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
