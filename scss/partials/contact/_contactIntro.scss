@@ -12,8 +12,7 @@
 .contact-us-intro{
   @include font-bold(bold);
   margin:0;
-  // padding: 5%;
-  padding:$padding-med;
+  padding:$padding-sm;
   padding-bottom:0;
 }
 
@@ -23,7 +22,7 @@
 }
 
 #call-btn{
-  margin:$padding-med;
+  margin:$padding-sm;
 }
 
 .call-desktop{

@@ -10,8 +10,8 @@
 .services-heading-text{
   @include font-bold(bold);
   // padding: 5%;
-  padding: $padding-med;
+  padding: $padding-sm
 }
 .pp-hours{
-    padding: 0 $padding-med $padding-med;
+    padding: 0 $padding-sm $padding-sm;
 }

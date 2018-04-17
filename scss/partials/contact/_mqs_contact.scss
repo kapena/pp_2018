@@ -1,7 +1,6 @@
 
 .contact-us-intro{
   @include breakpoint (medium down){
-    // padding:10%;
     padding:$padding-med;
     text-align: center;
   }
@@ -18,7 +17,7 @@
     @include breakpoint(medium down){
     display: flex;
     justify-content: center;
-    margin: 0 10% 10%;
+    margin: 0 $padding-med $padding-med;
     padding: 5%;
   }
 }
@@ -41,23 +40,25 @@
 
 .form-intro{
   @include breakpoint (medium down){
-  //  padding: 10% 0% 10%;
-  padding-top:$padding-sm-side;
-  padding-bottom: $padding-sm-side;
+  padding:$padding-sm;
   }
 }
 
 .intro-form-layout{
   @include breakpoint(medium down){
-    // padding: 0% 0% 10%;
     padding-bottom:$padding-sm;
   }
 }
 .form-heading{
   @include breakpoint(medium down){
-    // padding:10% 6% 0%;
     padding-top:$padding-med;
     padding-left:rem-calc(20px);
     padding-right:rem-calc(20px);
+  }
+}
+
+.prob{
+  @include breakpoint (medium down){
+    min-height:105px;
   }
 }
