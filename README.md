@@ -1,48 +1,44 @@
-# Foundation for Sites Template
+# Point Plumbing INC website
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+[Point Plumbing's](https://point.plumbing) website was designed and developed by Brent White for Point Plumbing INC in 2018.
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+# Purpose
+1. Help viewers experiencing plumbing problems get professional plumbing help and solutions quickly through Point Plumbing's website.
+2. Online bill payment through website.
+3. Create a modern digital identity for Point Plumbing that sets a higher standard than competitors.  
 
-## Installation
+# Frameworks Used
 
-To use this template, your computer needs:
+* Foundation 6  
+* jQuery
+* jekyll (blog)
 
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
+Foundation 6 was used to develop the grid system, navigation, responsive imagery and modules.
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+jQuery is used for custom scripting and inside Foundation 6.    
 
-### Using the CLI
+Jekyll was used to create the blog.
 
-Install the Foundation CLI with this command:
+# License
 
-```bash
-npm install foundation-cli --global
-```
+MIT License
 
-Use this command to set up a blank Foundation for Sites project with this template:
+Copyright (c) [2018] [Brent White]
 
-```bash
-foundation new --framework sites --template basic
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-bower install
-```
-
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
