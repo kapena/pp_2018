@@ -3,12 +3,27 @@
     text-align: center;
   }
 }
+.light-navy-about {
+  @include breakpoint (large only) {
+    padding:$padding-large-only;
+  }
+}
 .about-intro-heading{
+  @include breakpoint (large only) {
+    // 1024
+    padding:$padding-large-only;
+  }
+
   @include breakpoint(medium down){
     padding: $padding-med;
   }
 }
 .about-intro-subhead{
+  @include breakpoint (large only) {
+    // 1024
+    padding:0 $padding-large-only $padding-large-only;
+  }
+
   @include breakpoint (medium down){
     padding: 0 $padding-med-side $padding-med;
   }

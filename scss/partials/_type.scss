@@ -16,6 +16,11 @@ $type-color:#efefef;
 @mixin header-override-med-h2 ($import:!important) {
   font-size: rem-calc(38px)$import;
 }
+// large h3
+@mixin header-override-lrg-h3 ($import:!important) {
+  font-size: rem-calc(24px)$import;
+}
+
 // small h2
 @mixin header-override-sm-h2 ($import:!important) {
   font-size: rem-calc(31px)$import;
@@ -47,6 +52,13 @@ h1 {
    @include breakpoint (xlarge down) {
      font-size: rem-calc(38px) !important;
      }
+ }
+
+ h3{
+  //  sizing down h3 on large screens
+    @include breakpoint (large only) {
+      @include header-override-lrg-h3;
+    }
  }
 
 h1 {

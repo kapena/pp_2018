@@ -1,5 +1,13 @@
+.rht-navy-box {
+  @include breakpoint (large only) {
+    padding:$padding-large-only;
+  }
+}
 
 .contact-us-intro{
+  @include breakpoint (large only) {
+    padding:$padding-large-only;
+  }
   @include breakpoint (medium down){
     padding:$padding-med;
     text-align: center;
@@ -7,6 +15,9 @@
 }
 
 .contact-us-sub{
+  @include breakpoint (large only){
+    padding:$padding-large-only;
+  }
   @include breakpoint (medium down) {
     text-align: center;
     padding: 0% 10% 10%;
@@ -14,7 +25,10 @@
 }
 
 #call-btn{
-    @include breakpoint(medium down){
+  @include breakpoint (large only) {
+    margin:$padding-large-only;
+  }
+  @include breakpoint(medium down){
     display: flex;
     justify-content: center;
     margin: 0 $padding-med $padding-med;

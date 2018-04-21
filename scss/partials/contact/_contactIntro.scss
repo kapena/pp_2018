@@ -12,8 +12,8 @@
 .contact-us-intro{
   @include font-bold(bold);
   margin:0;
-  padding:$padding-sm;
-  padding-bottom:0;
+  padding:$padding-med;
+  // padding-bottom:0;
 }
 
 .contact-us-sub {
@@ -22,7 +22,7 @@
 }
 
 #call-btn{
-  margin:$padding-sm;
+  margin:$padding-med;
 }
 
 .call-desktop{
