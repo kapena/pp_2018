@@ -7,10 +7,10 @@
 
 .about-intro-heading{
   @include font-bold(bold);
-  padding: $padding-med $padding-sm $padding-med;
+  padding: $padding-med;
 }
 .about-intro-subhead{
-  padding: 0 $padding-sm $padding-med;
+  padding: 0 $padding-med $padding-med;
 }
 
 .hero-about{

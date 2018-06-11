@@ -11,7 +11,7 @@
 }
 .services-hours-txt{
   @include breakpoint(medium down){
-    padding:0 $padding-sm $padding-med;
+    padding:0 $padding-sm $padding-sm;
   }
 }
 .services-img{

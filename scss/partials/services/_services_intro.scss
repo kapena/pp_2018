@@ -1,17 +1,19 @@
 .services-img{
   @include img-scale;
 }
+
 .services-lightblue-box{
   @include center-txt;
   height: 100%;
   background-color: $pp-light-navy;
   position: relative;
 }
+
 .services-heading-text{
   @include font-bold(bold);
   // padding: 5%;
-  padding: $padding-sm
+  padding: $padding-med;
 }
-.pp-hours{
-    padding: 0 $padding-sm $padding-sm;
+.hours{
+    padding: $padding-sm 0px 0px;
 }

@@ -47,11 +47,12 @@ html, body, .p-overlay{
   background-color:$pp-navy-blue;
   height:100%;
   position: relative;
+  // padding:$padding-med;
 }
 
 .pp-can-solve{
   display:block;
-  padding-bottom:$padding-sm; 
+  padding-bottom:$padding-sm;
   margin: 0;
 }
 
@@ -64,13 +65,24 @@ html, body, .p-overlay{
 .al-ss-mobile{
   display: none;
 }
-
-.heading-hero, .subheading{
+//
+.heading-hero{
   padding:$padding-sm 0 $padding-sm;
 }
 
+.heading-hero{
+  padding-left:$padding-med;
+  padding-right:$padding-med;
+}
+
 .plumbing-prob{
+  padding:0 0 $padding-sm;
   font-weight: bold !important;
+}
+
+.award-winning{
+  padding:$padding-sm 0 $padding-sm;
+  margin-bottom: 0px !important;
 }
 
 .intro-sub{
