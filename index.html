@@ -28,6 +28,137 @@
     document.getElementByClassName('contact_form').submit();
   }
 </script>
+<!-- Meta Data -->
+<script type="application/ld+json">
+{
+      "@context": "http://schema.org/",
+      "@type": "Service",
+      "serviceType": "Plumbing Repair Service",
+"provider": {
+    "@type": "LocalBusiness",
+    "name": "Point Plumbing",
+    "priceRange": "$$$",
+    "address":{
+    "@type": "PostalAddress",
+   "addressLocality": "Honolulu",
+    "addressRegion": "HI",
+     "streetAddress": "2909 Waialae Ave"
+   },
+    "email":"etoile@hawaii.rr.com",
+  "telephone":"808-848-8821",
+  "openingHours":"Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00",
+  "image":"https://d3grswip56n2ht.cloudfront.net/icons/nav/pplogo.svg"
+  },
+      "areaServed": {
+        "@type": "State",
+        "name": "Honolulu"
+      },
+        "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "10"
+    },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Five Star Rated Plumbing Repairs, Honolulu, Hawaii",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Fast Water Heater Installation Honolulu, Hawaii",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Installation",
+                  "name": "Plumbing Pipe rerouting and Plumbing replacement services, Honolulu, Hawaii  "
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Fast accurate Plumbing quotes, Honolulu, Hawaii"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Repair Services",
+                  "name": "Plumbing repairs in Honolulu for a variety of plumbing systems"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Point Plumbing",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Repair Services",
+                  "name": "Kitchen Garbage Disposal repair and replacement"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Repairing leaking plumbing drains"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Repair Services",
+                  "name": "Fix a Washing Machine leak"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Aannual Plumbing Inspection"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Hot water heater plumbing services"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Hot heater leaking"
+                }
+              },
+
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Repairs",
+                  "name": "Shower valves, sink fixtures, and tub maintenance"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120665160-1"></script>
 <script>
@@ -35,7 +166,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-120665160-1');
+  gtag('set', {'user_id': 'UA-120665160-1'}); // Set the user ID using signed-in user_id.
 </script>
 
   </head>
@@ -128,7 +259,7 @@
         </div>
       </div>
       <div class="cell large-6 medium-12 small-12">
-          <img class="hero-img" data-interchange="[https://d3grswip56n2ht.cloudfront.net/images/home_device_%402x.jpg, small], [https://d3grswip56n2ht.cloudfront.net/images/home_device2_2x.jpg, medium], [https://d3grswip56n2ht.cloudfront.net/images/home_2018.jpg, large]" alt="Quality Plumbing services in Honolulu">
+          <img class="hero-img" data-interchange="[https://d3grswip56n2ht.cloudfront.net/images/home_device_%402x.jpg, small], [https://d3grswip56n2ht.cloudfront.net/images/home_device2_2x.jpg, medium], [https://d3grswip56n2ht.cloudfront.net/images/home_2018.jpg, large]" alt="Plumbing contractor Honolulu, Hawaii">
         </div>
       </div>
     </div>
@@ -145,6 +276,7 @@
           <h1 class="heading-s">Plumbing repairs in Honolulu
 for a variety of plumbing systems.</h1>
               <h3 class="pointplumbing hours">Hours Of Operation</h3>
+                <meta itemprop="openingHours" content="Mo-Fri 8:00-17:00">Mon-Sat 11am - 5pm
               <h3 class="location">Mon-Fri: 8am - 5pm</h3>
           </div>
         </div>
@@ -180,10 +312,10 @@ for a variety of plumbing systems.</h1>
     <ul>
       <li>Solutions for <i><b>high water bills</b></i></li>
         <li>Shower valves, sink fixtures, and tub maintenance</li>
-        <li>Garbage disposal repair and replacement</li>
-        <li>Repair leaking drains</li>
-        <li>Leak detection</li>
-        <li>Routine maintenance</li>
+        <li>Garbage Disposal repair and replacement</li>
+        <li>Repair Leaking Drains</li>
+        <li>Plumbing Leak Detection</li>
+        <li>Routine Plumbing Maintenance</li>
         <li>Pipe rerouting(replacement)</li>
         <li>Find your leaks before mold finds you</li>
     </ul>
