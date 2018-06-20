@@ -1,0 +1,128 @@
+{
+      "@context": "http://schema.org/",
+      "@type": "Service",
+      "serviceType": "Plumbing Repair Service",
+"provider": {
+    "@type": "LocalBusiness",
+    "name": "Point Plumbing",
+    "priceRange": "$$$",
+    "address":{
+    "@type": "PostalAddress",
+   "addressLocality": "Honolulu",
+    "addressRegion": "HI",
+     "streetAddress": "2909 Waialae Ave"
+   },
+    "email":"etoile@hawaii.rr.com",
+  "telephone":"808-848-8821",
+  "openingHours":"Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00",
+  "image":"https://d3grswip56n2ht.cloudfront.net/icons/nav/pplogo.svg"
+  },
+      "areaServed": {
+        "@type": "State",
+        "name": "Honolulu"
+      },
+        "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "10"
+    },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Five Star Rated Plumbing Repairs, Honolulu, Hawaii",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Fast Water Heater Installation Honolulu, Hawaii",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Installation",
+                  "name": "Plumbing Pipe rerouting and Plumbing replacement services, Honolulu, Hawaii  "
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Fast accurate Plumbing quotes, Honolulu, Hawaii"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Repair Services",
+                  "name": "Plumbing repairs in Honolulu for a variety of plumbing systems"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Point Plumbing",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Repair Services",
+                  "name": "Kitchen Garbage Disposal repair and replacement"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Repairing leaking plumbing drains"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Repair Services",
+                  "name": "Fix a Washing Machine leak"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Aannual Plumbing Inspection"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Hot water heater plumbing services"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Services",
+                  "name": "Hot heater leaking"
+                }
+              },
+
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "serviceType":"Plumbing Repairs",
+                  "name": "Shower valves, sink fixtures, and tub maintenance"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
