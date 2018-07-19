@@ -8,6 +8,10 @@
   padding-top:$padding-med;
 }
 
+.contact-form{
+  background-color: #0075EB;
+}
+
 .contact_form{
   // padding:$padding-med;
   padding-top:rem-calc(15px);
@@ -20,8 +24,8 @@
   // padding: 0% 5% 0%;
   padding-top:rem-calc(15px);
   padding-bottom:$padding-med;
-  padding-left:$padding-large-side;
-  padding-right:$padding-large-side;
+  padding-left:$padding-large;
+  padding-right:$padding-large;
 }
 
 .form-head{
