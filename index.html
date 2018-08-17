@@ -18,7 +18,12 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="preload" as="style" href="css/app.min.css">
     <link rel="stylesheet" href="css/app.min.css">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+    <script type="text/javascript">
+      function onSubmit(token){
+        document.getElementsByClassName('contact_form').submit();
+      }
+    </script>
     <noscript>
 <style type="text/css">
     .no-js-message{
@@ -26,11 +31,6 @@
     }
     </style>
 </noscript>
-<script type="text/javascript">
-  function onSubmit(token){
-    document.getElementsByClassName('contact_form').submit();
-  }
-</script>
 <!-- Meta Data BreadcrumbList-->
 <script type="application/ld+json">
 {
