@@ -9590,6 +9590,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/point-plumbing-blog\/protective-plumbing-pipelines\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/point-plumbing-blog\/protective-plumbing-pipelines\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/point-plumbing-blog\/water-meter-leak-detecter\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
