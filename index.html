@@ -18,7 +18,8 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="preload" as="style" href="css/app.min.css">
     <link rel="stylesheet" href="css/app.min.css">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- RECAPTCHA -->
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdRVl4sAAAAAE1NHIhG_3T4rQ7Ae6FkpFyQpVBW" async defer></script>
     <noscript>
 <style type="text/css">
     .no-js-message{
@@ -611,7 +612,7 @@ be a draining experience! </h2>
             <h4 class="form-intro text-center">Please take a minute to briefly tell us about your plumbing problems. We will be in touch with you no later than the next bussiness day.</h4>
           </div>
           <!-- Form Begin -->
-          <form accept-charset="UTF-8" class="contact_form" method="POST" action='https://formkeep.com/f/2682a022a640' data-abide novalidate>
+          <form accept-charset="UTF-8" class="contact_form" method="POST" enctype="multipart/form-data action='https://formkeep.com/f/2682a022a640' data-abide novalidate>
             <div data-abide-error class="alert callout" style="display: none;"><p><i class="fi-alert"></i> There are some errors in your form.</p>
             </div>
             <div class="grid-container">
@@ -652,7 +653,7 @@ be a draining experience! </h2>
                     <textarea required pattern="text" name="Message" type="text" class="prob" placeholder="Please discribe the plumbing issue you are having."></textarea>
                     <span class="form-error">Please tell us about the problem you are having!</span>
                 </label>
-                <button class="g-recaptcha submit-btn button large" data-sitekey="6LdS1lMUAAAAADF4WAO3OSvmq8X14xW0UqBSE49n" data-badge="inline" data-callback="onSubmit" type="submit" value="Submit">Send</button>
+                <button class="g-recaptcha submit-btn button large" data-sitekey="6LdRVl4sAAAAAE1NHIhG_3T4rQ7Ae6FkpFyQpVBW" data-badge="inline" data-callback="onSubmit" type="submit" data-action="" value="Submit">Send</button>
                 </div>
                 </div>
               </div>
