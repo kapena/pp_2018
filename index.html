@@ -29,7 +29,8 @@
 </noscript>
 <script type="text/javascript">
   function onSubmit(token){
-    document.getElementByClassName('contact_form').submit();
+    const form = document.querySelector('.contact_form');
+    if (form) form.submit();
   }
 </script>
 <!-- Meta Data BreadcrumbList-->
